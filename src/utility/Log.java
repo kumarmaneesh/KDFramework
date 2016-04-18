@@ -21,6 +21,7 @@ public static void startTestCase(String sTestCaseName){
 //This is to print log for the ending of the test case
 public static void endTestCase(String sTestCaseName){
    Log.info("xxxxxxxxxxxxxxxxxxxxx             "+"-E---N---D-"+"             xxxxxxxxxxxxxxxxxxxxxxxx");
+   Log.info("****************************************************************************************");
    Log.info("X");
    Log.info("X");
    Log.info("X");
