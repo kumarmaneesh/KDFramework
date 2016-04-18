@@ -1,0 +1,234 @@
+2016-04-15 10:15:50,789 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:15:50,789 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:15:50,804 INFO  [Log] Opening Browser 
+2016-04-15 10:16:11,392 INFO  [Log] Navigating to URL 
+2016-04-15 10:16:17,178 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 10:16:20,197 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 10:16:20,794 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 10:16:21,468 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 10:16:22,185 INFO  [Log] Wait for 5 seconds 
+2016-04-15 10:16:27,271 INFO  [Log] Verifying Text 
+2016-04-15 10:16:27,599 INFO  [Log] Closing the browser 
+2016-04-15 10:16:28,754 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 10:16:28,754 INFO  [Log] X 
+2016-04-15 10:16:28,754 INFO  [Log] X 
+2016-04-15 10:16:28,754 INFO  [Log] X 
+2016-04-15 10:16:28,754 INFO  [Log] X 
+2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:17:55,970 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:17:55,970 INFO  [Log] Opening Browser 
+2016-04-15 10:18:16,485 INFO  [Log] Navigating to URL 
+2016-04-15 10:18:20,385 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 10:18:23,407 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 10:18:23,950 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 10:18:24,541 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 10:18:25,207 INFO  [Log] Wait for 5 seconds 
+2016-04-15 10:18:30,263 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 10:18:30,803 INFO  [Log] Closing the browser 
+2016-04-15 10:18:31,801 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 10:18:31,801 INFO  [Log] X 
+2016-04-15 10:18:31,801 INFO  [Log] X 
+2016-04-15 10:18:31,801 INFO  [Log] X 
+2016-04-15 10:18:31,801 INFO  [Log] X 
+2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:18:39,964 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:18:39,964 INFO  [Log] Opening Browser 
+2016-04-15 10:19:00,844 INFO  [Log] Navigating to URL 
+2016-04-15 10:19:04,271 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 10:19:06,767 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 10:19:07,365 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 10:19:08,002 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 10:19:08,653 INFO  [Log] Wait for 5 seconds 
+2016-04-15 10:19:13,731 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 10:19:28,087 INFO  [Log] Closing the browser 
+2016-04-15 10:22:24,537 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 10:22:24,537 INFO  [Log] X 
+2016-04-15 10:22:24,537 INFO  [Log] X 
+2016-04-15 10:22:24,537 INFO  [Log] X 
+2016-04-15 10:22:24,537 INFO  [Log] X 
+2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:04,745 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:04,745 INFO  [Log] Opening Browser 
+2016-04-15 10:35:26,088 INFO  [Log] Navigating to URL 
+2016-04-15 10:35:30,351 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 10:35:33,108 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 10:35:33,949 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 10:35:34,548 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 10:35:35,158 INFO  [Log] Wait for 5 seconds 
+2016-04-15 10:35:40,239 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 10:35:40,902 INFO  [Log] Closing the browser 
+2016-04-15 10:35:42,362 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 10:35:42,362 INFO  [Log] X 
+2016-04-15 10:35:42,362 INFO  [Log] X 
+2016-04-15 10:35:42,362 INFO  [Log] X 
+2016-04-15 10:35:42,362 INFO  [Log] X 
+2016-04-15 10:35:42,362 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:42,362 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
+2016-04-15 10:35:42,362 INFO  [Log] Opening Browser 
+2016-04-15 10:36:03,104 INFO  [Log] Navigating to URL 
+2016-04-15 10:36:06,466 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 10:36:10,103 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 10:36:10,758 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 10:36:11,260 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 10:36:12,054 INFO  [Log] Wait for 5 seconds 
+2016-04-15 10:36:17,118 INFO  [Log] Verifying Text 
+2016-04-15 10:36:17,680 INFO  [Log] Closing the browser 
+2016-04-15 10:36:18,538 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 10:36:18,538 INFO  [Log] X 
+2016-04-15 10:36:18,538 INFO  [Log] X 
+2016-04-15 10:36:18,538 INFO  [Log] X 
+2016-04-15 10:36:18,538 INFO  [Log] X 
+2016-04-15 10:36:18,538 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 10:36:18,538 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:56:39,051 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:56:39,051 INFO  [Log] Opening Browser 
+2016-04-15 12:57:00,727 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-15 12:57:00,728 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-15 12:57:00,728 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 12:57:00,728 INFO  [Log] X 
+2016-04-15 12:57:00,728 INFO  [Log] X 
+2016-04-15 12:57:00,728 INFO  [Log] X 
+2016-04-15 12:57:00,728 INFO  [Log] X 
+2016-04-15 12:57:00,729 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 12:57:00,729 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:58:10,683 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
+2016-04-15 12:58:10,683 INFO  [Log] Opening Browser 
+2016-04-15 12:58:31,670 INFO  [Log] Navigating to URL 
+2016-04-15 12:58:36,837 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 12:58:40,112 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 12:58:40,902 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 12:58:41,626 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 12:58:42,258 INFO  [Log] Wait for 5 seconds 
+2016-04-15 12:58:47,356 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 12:58:48,044 INFO  [Log] Closing the browser 
+2016-04-15 12:58:49,171 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 12:58:49,171 INFO  [Log] X 
+2016-04-15 12:58:49,171 INFO  [Log] X 
+2016-04-15 12:58:49,171 INFO  [Log] X 
+2016-04-15 12:58:49,171 INFO  [Log] X 
+2016-04-15 12:58:49,171 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 12:58:49,171 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 13:07:38,465 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:07:38,466 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:07:38,466 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 13:07:38,466 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:07:38,466 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:08:25,211 INFO  [Log] Opening Browser 
+2016-04-15 13:09:14,352 INFO  [Log] Navigating to URL 
+2016-04-15 13:09:37,213 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 13:09:56,701 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 13:10:05,093 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 13:10:16,050 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 13:10:24,004 INFO  [Log] Wait for 5 seconds 
+2016-04-15 13:10:53,408 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 13:11:15,015 INFO  [Log] Closing the browser 
+2016-04-15 13:12:33,522 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 13:12:33,522 INFO  [Log] X 
+2016-04-15 13:12:33,523 INFO  [Log] X 
+2016-04-15 13:12:33,523 INFO  [Log] X 
+2016-04-15 13:12:33,523 INFO  [Log] X 
+2016-04-15 13:13:14,843 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 13:13:16,423 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:13:16,424 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:13:16,424 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 13:13:16,424 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:13:16,424 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:13:38,720 INFO  [Log] Opening Browser 
+2016-04-15 13:14:11,785 INFO  [Log] Navigating to URL 
+2016-04-15 13:14:19,979 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 13:14:23,986 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 13:14:33,386 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 13:14:35,368 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 13:14:48,456 INFO  [Log] Wait for 5 seconds 
+2016-04-15 13:15:01,887 INFO  [Log] Verifying Text 
+2016-04-15 13:15:11,348 INFO  [Log] Closing the browser 
+2016-04-15 13:15:21,939 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 13:15:21,939 INFO  [Log] X 
+2016-04-15 13:15:21,939 INFO  [Log] X 
+2016-04-15 13:15:21,939 INFO  [Log] X 
+2016-04-15 13:15:21,939 INFO  [Log] X 
+2016-04-15 13:15:31,308 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 13:16:03,810 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 13:17:36,008 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:17:36,009 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:17:36,009 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 13:17:36,009 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:17:36,009 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:17:36,010 INFO  [Log] Opening Browser 
+2016-04-15 13:17:57,638 INFO  [Log] Navigating to URL 
+2016-04-15 13:18:03,364 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 13:18:06,195 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 13:18:06,842 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 13:18:07,544 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 13:18:08,184 INFO  [Log] Wait for 5 seconds 
+2016-04-15 13:18:13,238 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 13:18:13,926 INFO  [Log] Closing the browser 
+2016-04-15 13:18:14,984 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 13:18:14,984 INFO  [Log] X 
+2016-04-15 13:18:14,984 INFO  [Log] X 
+2016-04-15 13:18:14,984 INFO  [Log] X 
+2016-04-15 13:18:14,984 INFO  [Log] X 
+2016-04-15 13:19:12,487 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:12,488 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:12,488 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 13:19:12,488 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:12,488 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:12,489 INFO  [Log] Opening Browser 
+2016-04-15 13:19:30,446 INFO  [Log] Navigating to URL 
+2016-04-15 13:19:37,049 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 13:19:39,454 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 13:19:40,070 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 13:19:40,673 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 13:19:41,276 INFO  [Log] Wait for 5 seconds 
+2016-04-15 13:19:46,335 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-15 13:19:46,993 INFO  [Log] Closing the browser 
+2016-04-15 13:19:48,107 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 13:19:48,107 INFO  [Log] X 
+2016-04-15 13:19:48,107 INFO  [Log] X 
+2016-04-15 13:19:48,107 INFO  [Log] X 
+2016-04-15 13:19:48,107 INFO  [Log] X 
+2016-04-15 13:19:48,108 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:48,108 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
+2016-04-15 13:19:48,108 INFO  [Log] Opening Browser 
+2016-04-15 13:20:03,576 INFO  [Log] Navigating to URL 
+2016-04-15 13:20:09,912 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-15 13:20:13,102 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-15 13:20:13,976 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-15 13:20:14,615 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-15 13:20:15,272 INFO  [Log] Wait for 5 seconds 
+2016-04-15 13:20:20,335 INFO  [Log] Verifying Text 
+2016-04-15 13:20:20,742 INFO  [Log] Closing the browser 
+2016-04-15 13:20:21,575 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-15 13:20:21,576 INFO  [Log] X 
+2016-04-15 13:20:21,576 INFO  [Log] X 
+2016-04-15 13:20:21,576 INFO  [Log] X 
+2016-04-15 13:20:21,576 INFO  [Log] X 

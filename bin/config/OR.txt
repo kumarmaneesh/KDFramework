@@ -1,0 +1,9 @@
+# Home Page Objects
+btn_MyAccount=.//*[@id='account']/a
+btn_Logout=.//*[@id='account_logout']
+ 
+# Login Page Object
+txtbx_UserName=.//*[@id='log']
+txtbx_Password=.//*[@id='pwd']
+btn_Login=.//*[@id='login']
+lbl_Error=.//*[@class='response']
