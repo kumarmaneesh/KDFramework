@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import executionEngine.DriverScript;
 import utility.Log;
 
@@ -18,25 +20,34 @@ public class ActionKeywords {
 
 	public static void openBrowser(String object,String value) throws InterruptedException{	
 		try{
-		System.out.println("launching Chrome browser");
-		Log.info("Opening Browser");
-		System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+			if(value.equalsIgnoreCase("chrome")){
+				System.out.println("launching Chrome browser");
+				Log.info("Opening Browser");
+				System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
+				driver = new ChromeDriver();
+				driver.manage().window().maximize();
 
-		//driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://www.store.demoqa.com");
+				//driver = new FirefoxDriver();
+				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				driver.get("http://www.store.demoqa.com");
 
-		//Below code is to bypass zscalar authentication
-		//*****************************************************************************************************
-		Thread.sleep(3000);
-		driver.findElement(By.name("lognsfc")).sendKeys("surbhi.kukreja.ttc@sgx.com");
-		driver.findElement(By.name("lsubmit")).click();
+				//Below code is to bypass zscalar authentication
+				//*****************************************************************************************************
+				Thread.sleep(3000);
+				driver.findElement(By.name("lognsfc")).sendKeys("surbhi.kukreja.ttc@sgx.com");
+				driver.findElement(By.name("lsubmit")).click();
 
-		driver.findElement(By.name("passsfc")).sendKeys("Password123");
-		driver.findElement(By.name("bsubmit")).click();
-		Thread.sleep(2000);
+				driver.findElement(By.name("passsfc")).sendKeys("Password123");
+				driver.findElement(By.name("bsubmit")).click();
+				Thread.sleep(2000);
+			}
+				else if(value.equalsIgnoreCase("firefox")){
+					System.out.println("launching firefox browser");
+					driver = new FirefoxDriver();
+					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+					driver.get("http://www.store.demoqa.com");
+					Thread.sleep(3000);
+			}
 		}catch(Exception e){
 			//This is to print the logs - Method Name & Error description/stack
 			Log.info("Not able to open Browser --- " + e.getMessage());

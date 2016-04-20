@@ -232,3 +232,103 @@
 2016-04-15 13:20:21,576 INFO  [Log] X 
 2016-04-15 13:20:21,576 INFO  [Log] X 
 2016-04-15 13:20:21,576 INFO  [Log] X 
+2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:38:34,042 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:38:34,401 INFO  [Log] Navigating to URL 
+2016-04-20 13:38:34,401 INFO  [Log] Not able to navigate --- null 
+2016-04-20 13:38:34,448 INFO  [Log] Closing the browser 
+2016-04-20 13:38:34,448 ERROR [Log] Not able to Close the Browser --- null 
+2016-04-20 13:38:34,495 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:38:34,495 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:38:34,495 INFO  [Log] X 
+2016-04-20 13:38:34,495 INFO  [Log] X 
+2016-04-20 13:38:34,495 INFO  [Log] X 
+2016-04-20 13:38:34,495 INFO  [Log] X 
+2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:42:08,942 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:42:09,052 INFO  [Log] Navigating to URL 
+2016-04-20 13:42:09,052 INFO  [Log] Not able to navigate --- null 
+2016-04-20 13:42:09,098 INFO  [Log] Closing the browser 
+2016-04-20 13:42:09,098 ERROR [Log] Not able to Close the Browser --- null 
+2016-04-20 13:42:09,161 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:42:09,161 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:42:09,161 INFO  [Log] X 
+2016-04-20 13:42:09,161 INFO  [Log] X 
+2016-04-20 13:42:09,161 INFO  [Log] X 
+2016-04-20 13:42:09,161 INFO  [Log] X 
+2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:44:50,430 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:44:50,539 INFO  [Log] Navigating to URL 
+2016-04-20 13:44:50,539 INFO  [Log] Not able to navigate --- null 
+2016-04-20 13:44:50,570 INFO  [Log] Closing the browser 
+2016-04-20 13:44:50,570 ERROR [Log] Not able to Close the Browser --- null 
+2016-04-20 13:44:50,617 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:44:50,617 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:44:50,617 INFO  [Log] X 
+2016-04-20 13:44:50,617 INFO  [Log] X 
+2016-04-20 13:44:50,617 INFO  [Log] X 
+2016-04-20 13:44:50,617 INFO  [Log] X 
+2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:47:03,912 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:49:35,719 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:52:27,842 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:52:57,523 INFO  [Log] Opening Browser 
+2016-04-20 13:53:16,982 INFO  [Log] Navigating to URL 
+2016-04-20 13:53:25,439 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-20 13:53:28,032 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-20 13:53:28,722 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-20 13:53:29,306 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-20 13:53:30,007 INFO  [Log] Wait for 5 seconds 
+2016-04-20 13:53:35,098 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-20 13:53:35,738 INFO  [Log] Closing the browser 
+2016-04-20 13:53:37,433 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:53:37,433 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:53:37,449 INFO  [Log] X 
+2016-04-20 13:53:37,449 INFO  [Log] X 
+2016-04-20 13:53:37,449 INFO  [Log] X 
+2016-04-20 13:53:37,449 INFO  [Log] X 
+2016-04-20 13:54:39,381 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:54:39,381 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:55:05,772 INFO  [Log] Not able to open Browser --- Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f5d40335-262b-4696-bdba-de4d26c70882 
+2016-04-20 13:55:05,897 INFO  [Log] Closing the browser 
+2016-04-20 13:55:07,399 ERROR [Log] Not able to Close the Browser --- Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f5d40335-262b-4696-bdba-de4d26c70882 
+2016-04-20 13:55:07,462 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-20 13:55:07,462 INFO  [Log] **************************************************************************************** 
+2016-04-20 13:55:07,462 INFO  [Log] X 
+2016-04-20 13:55:07,462 INFO  [Log] X 
+2016-04-20 13:55:07,462 INFO  [Log] X 
+2016-04-20 13:55:07,462 INFO  [Log] X 
