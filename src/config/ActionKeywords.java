@@ -73,6 +73,7 @@ public class ActionKeywords {
 		try{
 			Log.info("Clicking on Webelement "+ object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
+			Thread.sleep(1000);
 		 }catch(Exception e){
  			Log.error("Not able to click --- " + e.getMessage());
  			DriverScript.bResult = false;
@@ -106,6 +107,12 @@ public class ActionKeywords {
 		else{
 			System.out.println("Verification Failed");
 		}
+	}
+	
+	public static String storeValue(String object,String value){
+		Log.info("Store Text in a variable");
+		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
+		return objText;
 	}
 
 	public static void closeBrowser(String object,String value){
