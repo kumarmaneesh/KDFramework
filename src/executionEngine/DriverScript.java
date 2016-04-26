@@ -3,14 +3,10 @@ package executionEngine;
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.util.Properties;
-
 import org.apache.log4j.xml.DOMConfigurator;
-import org.testng.TestException;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
 import config.ActionKeywords;
 import config.Constants;
 import utility.ExcelUtils;
@@ -24,6 +20,7 @@ public class DriverScript {
 	public static String sActionKeyword;
 	public static String sTestData;
 	private static ExtentReports extent;
+	private static ExtentTest testExt;
 	
 	//This is reflection class object, declared as 'public static'So that it can be used outside the scope of main[] method
 	public static Method[] method;
@@ -32,6 +29,7 @@ public class DriverScript {
 	public static int iTestLastStep;
 	public static String sTestCaseID;
 	public static String sTestCaseDesc;
+	public static String sTestStepDesc;
 	public static String sRunMode;
 	public static boolean bResult;
 
@@ -47,6 +45,9 @@ public class DriverScript {
 		
 		//Here we are instantiating a new object for Extent Report
 		extent = new ExtentReports(config.Constants.Report_Path);
+		extent.config().documentTitle("Test Execution Results");
+		extent.config().reportName("Test Report Name");
+		extent.config().reportHeadline("New Headline");
 				
 		// starting test
 		//ExtentTest testExt = extent.startTest("Login to DemoQA", "Login with valid user credentials");
@@ -101,7 +102,7 @@ public class DriverScript {
 				iTestLastStep = ExcelUtils.getTestStepsCount(Constants.Sheet_TestSteps, sTestCaseID, iTestStep);
 				Log.startTestCase(sTestCaseID);
 				
-				ExtentTest testExt = extent.startTest(sTestCaseID, sTestCaseDesc);
+				testExt = extent.startTest(sTestCaseID, sTestCaseDesc);
 				//testExt = extent.startTest(sTestCaseID, sTestCaseDesc);
 				
 				//Setting the value of bResult variable to 'true' before starting every test step
@@ -121,14 +122,13 @@ public class DriverScript {
 						ExcelUtils.setCellData(Constants.KEYWORD_FAIL,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 						//End the test case in the logs
 						Log.endTestCase(sTestCaseID);
-						//By this break statement, execution flow will not execute any more test step of the failed test case
+											
+						testExt.log(LogStatus.FAIL, "Test Case Failed: " + sTestCaseID);
+						
+						//By this break statement, execution flow will not execute any more test step of the failed test case	
 						break;
 					}
 				}
-				// step log
-				testExt.log(LogStatus.PASS, "Successfully Executed Test Case: " + sTestCaseID);
-				//inserting snapshot
-				testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(config.Constants.Path_SS));
 				
 				// ending test
 				extent.endTest(testExt);
@@ -167,12 +167,21 @@ public class DriverScript {
 					if(bResult==true){
 						//If the executed test step value is true, Pass the test step in Excel sheet
 						ExcelUtils.setCellData(Constants.KEYWORD_PASS, iTestStep, Constants.Col_TestStepResult, Constants.Sheet_TestSteps);
+						sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
+						// step log
+						testExt.log(LogStatus.PASS, "Test Step Passed: " + sTestStepDesc);
 						break;
 					}else{
 						//If the executed test step value is false, Fail the test step in Excel sheet
 						ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iTestStep, Constants.Col_TestStepResult, Constants.Sheet_TestSteps);
 						//In case of false, the test execution will not reach to last step of closing browser
 						//So it make sense to close the browser before moving on to next test case
+						sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
+						//step log
+						testExt.log(LogStatus.FAIL, "Test Step Failed: " + sTestStepDesc);
+						//inserting snapshot
+						testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(config.Constants.Path_SS));
+						
 						ActionKeywords.closeBrowser("","");
 						break;
 						}

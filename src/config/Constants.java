@@ -16,11 +16,12 @@ public class Constants {
 	//List of Data Sheet Column Numbers
 	public static final int Col_TestCaseID = 0;	
 	public static final int Col_TestScenarioID =1 ;
-	public static final int Col_TestCaseDesc =2;
-	//This is the new column for 'Page Object'
+	public static final int Col_TestCaseDesc =1;
+	
 	public static final int Col_PageObject =4 ;
 	public static final int Col_ActionKeyword =5 ;
 	public static final int Col_TestData = 6;
+	public static final int Col_TestStepDesc =2;
 	
 	public static final int Col_RunMode =2 ;
 	 
