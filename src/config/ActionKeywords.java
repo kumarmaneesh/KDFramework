@@ -1,23 +1,34 @@
 package config;
 
-import java.util.concurrent.TimeUnit; 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import executionEngine.DriverScript;
-import utility.Log;
-
 //import pageObjects.HomePage;
 //import pageObjects.LoginPage;
 import static executionEngine.DriverScript.OR;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import com.relevantcodes.extentreports.ExtentReports;
+
+import executionEngine.DriverScript;
+import utility.Log;
+
 public class ActionKeywords {
 
 	public static WebDriver driver;
+	public static ExtentReports extent;
+	
 	static String driverPath = "C:\\Users\\ttc.mk\\Desktop\\MK\\";
-
+	
+	private static String storedText;
+	
+	//extent = new ExtentReports(config.Constants.Report_Path);
+	
 	public static void openBrowser(String object,String value) throws InterruptedException{	
 		try{
 			if(value.equalsIgnoreCase("chrome")){
@@ -99,7 +110,7 @@ public class ActionKeywords {
 	}
 
 	public static void verify(String object,String value){
-		Log.info("Verifying Text");
+		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(value)){
 			System.out.println("Verification Successful");
@@ -109,12 +120,38 @@ public class ActionKeywords {
 		}
 	}
 	
-	public static String storeValue(String object,String value){
-		Log.info("Store Text in a variable");
+	public static void verifyStoredText(String object,String value){
+		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
-		return objText;
+		if(objText.contains(storedText)){
+			Log.info("Stored Text for object "+ object +"is: " + storedText);
+			System.out.println("Verification Successful for stored text");
+		}
+		else{
+			System.out.println("Verification Failed for stored text");
+			System.out.println("Expected Value: " + storedText);
+			System.out.println("Actual Value: " + objText);
+		}
 	}
-
+	
+	public static String storeValue(String object,String value){
+		Log.info("Store Text in a variable for: " + object);
+		storedText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
+		return storedText;
+	}
+	
+	public static void mouseHover(String object,String value) throws InterruptedException{
+		Log.info("MouseHover element: "+ object);
+		Actions action = new Actions(driver);
+		WebElement we = driver.findElement(By.xpath(OR.getProperty(object)));
+		action.moveToElement(we).build().perform();
+		Thread.sleep(500);
+		we.click();
+		Thread.sleep(500);
+		
+		//action.moveToElement(we).moveToElement(driver.findElement(By.xpath("/expression-here"))).click().build().perform();
+	}
+	
 	public static void closeBrowser(String object,String value){
 		try{
 			Log.info("Closing the browser");

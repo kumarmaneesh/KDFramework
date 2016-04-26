@@ -10,10 +10,13 @@ public class Constants {
 	public static final String Path_TestData = "C://Users//ttc.mk//workspace//KDFramework//src//dataEngine//DataEngine.xlsx";
 	public static final String File_TestData = "DataEngine.xlsx";
 	public static final String Path_OR = "C://Users//ttc.mk//workspace//KDFramework//src////config//OR.txt";
+	public static final String Report_Path = "C://Users//ttc.mk//Desktop//MK//AutomationReport.html";
+	public static final String Path_SS = "C://Users//ttc.mk//workspace//KDFramework//src//Snapshots";
  
 	//List of Data Sheet Column Numbers
 	public static final int Col_TestCaseID = 0;	
 	public static final int Col_TestScenarioID =1 ;
+	public static final int Col_TestCaseDesc =2;
 	//This is the new column for 'Page Object'
 	public static final int Col_PageObject =4 ;
 	public static final int Col_ActionKeyword =5 ;
