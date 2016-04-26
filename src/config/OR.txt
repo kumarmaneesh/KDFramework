@@ -10,7 +10,7 @@ lbl_Error=.//*[@class='response']
 
 # Shopping Page Objects
 lnk_ProductCategory=.//a[text()='Product Category']
-lnk_iPhones=.//li[@id='menu-item-37']/a
+lnk_iPhones=.//a[contains(text(),'iPhones')]
 btn_AddToCart=.//*[contains(@action,'16gb-sim-free')]//input[@value='Add To Cart']
 lbl_CurrentPrice=.//*[contains(@action,'16gb-sim-free')]//span[contains(@class,'currentprice')]
 btn_GoToCheckOut=.//a[@class='go_to_checkout']

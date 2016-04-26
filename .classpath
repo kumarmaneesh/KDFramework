@@ -17,5 +17,9 @@
 	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/poi-3.14/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/poi-3.14/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/poi-3.14/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/extentreports-java-v2.40.2/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/extentreports-java-v2.40.2/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/extentreports-java-v2.40.2/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ttc.mk/Desktop/MK/extentreports-java-v2.40.2/extentreports-java-2.40.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

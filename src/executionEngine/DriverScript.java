@@ -3,11 +3,18 @@ package executionEngine;
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.util.Properties;
+
 import org.apache.log4j.xml.DOMConfigurator;
+import org.testng.TestException;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
 import config.ActionKeywords;
+import config.Constants;
 import utility.ExcelUtils;
 import utility.Log;
-import config.Constants;
 
 public class DriverScript {
 
@@ -16,6 +23,7 @@ public class DriverScript {
 	public static String sPageObject;
 	public static String sActionKeyword;
 	public static String sTestData;
+	private static ExtentReports extent;
 	
 	//This is reflection class object, declared as 'public static'So that it can be used outside the scope of main[] method
 	public static Method[] method;
@@ -23,6 +31,7 @@ public class DriverScript {
 	public static int iTestStep;
 	public static int iTestLastStep;
 	public static String sTestCaseID;
+	public static String sTestCaseDesc;
 	public static String sRunMode;
 	public static boolean bResult;
 
@@ -35,6 +44,13 @@ public class DriverScript {
 	//}
 
 	public static void main(String[] args) throws Exception {
+		
+		//Here we are instantiating a new object for Extent Report
+		extent = new ExtentReports(config.Constants.Report_Path);
+				
+		// starting test
+		//ExtentTest testExt = extent.startTest("Login to DemoQA", "Login with valid user credentials");
+		//testExt.assignCategory("DEMO");
 		//Here we are instantiating a new object of class 'ActionKeywords'
 		actionKeywords = new ActionKeywords();
 		
@@ -58,13 +74,14 @@ public class DriverScript {
 		
 		//Loading all the properties from Object Repository property file in to OR object
 		OR.load(fs);
-
+		
 		DriverScript startEngine = new DriverScript();
 		startEngine.execute_TestCase();
-
+		
 	}
 
 	private void execute_TestCase() throws Exception {
+		try{
 		//This will return the total number of test cases mentioned in the Test cases sheet
 		int iTotalTestCases = ExcelUtils.getRowCount(Constants.Sheet_TestCases);
 		
@@ -73,7 +90,8 @@ public class DriverScript {
 			//Setting the value of bResult variable to 'true' before starting every test case
 			bResult = true;
 			//This is to get the Test case name from the Test Cases sheet
-			sTestCaseID = ExcelUtils.getCellData(iTestcase, Constants.Col_TestCaseID, Constants.Sheet_TestCases); 
+			sTestCaseID = ExcelUtils.getCellData(iTestcase, Constants.Col_TestCaseID, Constants.Sheet_TestCases);
+			sTestCaseDesc = ExcelUtils.getCellData(iTestcase, Constants.Col_TestCaseDesc, Constants.Sheet_TestCases);
 			//This is to get the value of the Run Mode column for the current test case
 			sRunMode = ExcelUtils.getCellData(iTestcase, Constants.Col_RunMode,Constants.Sheet_TestCases);
 			//This is the condition statement on RunMode value
@@ -82,13 +100,19 @@ public class DriverScript {
 				iTestStep = ExcelUtils.getRowContains(sTestCaseID, Constants.Col_TestCaseID, Constants.Sheet_TestSteps);
 				iTestLastStep = ExcelUtils.getTestStepsCount(Constants.Sheet_TestSteps, sTestCaseID, iTestStep);
 				Log.startTestCase(sTestCaseID);
+				
+				ExtentTest testExt = extent.startTest(sTestCaseID, sTestCaseDesc);
+				//testExt = extent.startTest(sTestCaseID, sTestCaseDesc);
+				
 				//Setting the value of bResult variable to 'true' before starting every test step
 				bResult=true;
 				//This loop will execute number of times equal to Total number of test steps
 				for (;iTestStep<iTestLastStep;iTestStep++){
+					
 					sActionKeyword = ExcelUtils.getCellData(iTestStep, Constants.Col_ActionKeyword,Constants.Sheet_TestSteps);
 					sPageObject = ExcelUtils.getCellData(iTestStep, Constants.Col_PageObject, Constants.Sheet_TestSteps);
 					sTestData = ExcelUtils.getCellData(iTestStep, Constants.Col_TestData, Constants.Sheet_TestSteps);
+					
 					execute_Actions();
 					//This is the result code, this code will execute after each test step
 					//The execution flow will go in to this only if the value of bResult is 'false'
@@ -101,6 +125,17 @@ public class DriverScript {
 						break;
 					}
 				}
+				// step log
+				testExt.log(LogStatus.PASS, "Successfully Executed Test Case: " + sTestCaseID);
+				//inserting snapshot
+				testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(config.Constants.Path_SS));
+				
+				// ending test
+				extent.endTest(testExt);
+				// writing everything to document
+				extent.flush();
+				
+				
 				//This will only execute after the last step of the test case, if value is not 'false' at any step	
 				if(bResult==true){
 					//Storing the result as Pass in the excel sheet
@@ -108,6 +143,12 @@ public class DriverScript {
 					Log.endTestCase(sTestCaseID);
 				}
 			}
+		}
+		}catch(Exception e){
+			System.out.println("TC Failed due to exception: " +e);
+		}
+		finally{
+		//System.out.println("");
 		}
 	}
 
