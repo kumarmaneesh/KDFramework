@@ -12,6 +12,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentReports;
 
@@ -22,13 +24,13 @@ public class ActionKeywords {
 
 	public static WebDriver driver;
 	public static ExtentReports extent;
-	
+
 	static String driverPath = "C:\\Users\\ttc.mk\\Desktop\\MK\\";
-	
+
 	private static String storedText;
-	
+
 	//extent = new ExtentReports(config.Constants.Report_Path);
-	
+
 	public static void openBrowser(String object,String value) throws InterruptedException{	
 		try{
 			if(value.equalsIgnoreCase("chrome")){
@@ -52,19 +54,19 @@ public class ActionKeywords {
 				driver.findElement(By.name("bsubmit")).click();
 				Thread.sleep(2000);
 			}
-				else if(value.equalsIgnoreCase("firefox")){
-					System.out.println("launching firefox browser");
-					driver = new FirefoxDriver();
-					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-					driver.get("http://www.store.demoqa.com");
-					Thread.sleep(3000);
+			else if(value.equalsIgnoreCase("firefox")){
+				System.out.println("launching firefox browser");
+				driver = new FirefoxDriver();
+				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				driver.get("http://www.store.demoqa.com");
+				Thread.sleep(3000);
 			}
 		}catch(Exception e){
 			//This is to print the logs - Method Name & Error description/stack
 			Log.info("Not able to open Browser --- " + e.getMessage());
 			//Set the value of result variable to false
 			DriverScript.bResult = false;
-			}
+		}
 	}
 
 	//All the methods in this class now accept 'Object' name as an argument
@@ -77,18 +79,21 @@ public class ActionKeywords {
 		}catch(Exception e){
 			Log.info("Not able to navigate --- " + e.getMessage());
 			DriverScript.bResult = false;
-			}
+		}
 	}
 
 	public static void click(String object,String value){
 		try{
 			Log.info("Clicking on Webelement "+ object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
-			Thread.sleep(1000);
-		 }catch(Exception e){
- 			Log.error("Not able to click --- " + e.getMessage());
- 			DriverScript.bResult = false;
-         	}
+			Thread.sleep(2000);
+			
+			//WebDriverWait wait = new WebDriverWait(driver, 15); 
+			//wait.until(ExpectedConditions.titleContains("Google"));
+		}catch(Exception e){
+			Log.error("Not able to click --- " + e.getMessage());
+			DriverScript.bResult = false;
+		}
 	}
 
 	public static void input(String object,String value){
@@ -110,6 +115,9 @@ public class ActionKeywords {
 	}
 
 	public static void verify(String object,String value){
+		WebDriverWait wait = new WebDriverWait(driver, 15); 
+		wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
+		
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(value)){
@@ -119,7 +127,7 @@ public class ActionKeywords {
 			System.out.println("Verification Failed");
 		}
 	}
-	
+
 	public static void verifyStoredText(String object,String value){
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
@@ -133,32 +141,35 @@ public class ActionKeywords {
 			System.out.println("Actual Value: " + objText);
 		}
 	}
-	
+
 	public static String storeValue(String object,String value){
 		Log.info("Store Text in a variable for: " + object);
 		storedText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		return storedText;
 	}
-	
+
 	public static void mouseHover(String object,String value) throws InterruptedException{
-		Log.info("MouseHover element: "+ object);
+		try{
+		Log.info("MouseHover element: "+ object + " and clicking on: " + value);
 		Actions action = new Actions(driver);
 		WebElement we = driver.findElement(By.xpath(OR.getProperty(object)));
-		action.moveToElement(we).build().perform();
+		WebElement we2 = driver.findElement(By.xpath(OR.getProperty(value)));
 		Thread.sleep(500);
-		we.click();
+		action.moveToElement(we).moveToElement(we2).click().perform();
 		Thread.sleep(500);
-		
-		//action.moveToElement(we).moveToElement(driver.findElement(By.xpath("/expression-here"))).click().build().perform();
+		}catch(Exception e){
+			Log.error("Not able to perform MouseHover --- " + e.getMessage());
+			DriverScript.bResult = false;
+		}
 	}
-	
+
 	public static void closeBrowser(String object,String value){
 		try{
 			Log.info("Closing the browser");
 			driver.quit();
-		 }catch(Exception e){
-			 Log.error("Not able to Close the Browser --- " + e.getMessage());
-			 DriverScript.bResult = false;
-         	}
+		}catch(Exception e){
+			Log.error("Not able to Close the Browser --- " + e.getMessage());
+			DriverScript.bResult = false;
 		}
+	}
 }

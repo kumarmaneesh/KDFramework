@@ -1220,3 +1220,491 @@ Session ID: 2f60fb572079ddc513a6bbf79c19e4c9
 2016-04-26 15:29:59,052 INFO  [Log] X 
 2016-04-26 15:29:59,052 INFO  [Log] X 
 2016-04-26 15:29:59,052 INFO  [Log] X 
+2016-04-26 15:37:05,913 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:05,913 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:05,914 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 15:37:05,914 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:05,914 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:05,917 INFO  [Log] Opening Browser 
+2016-04-26 15:37:20,790 INFO  [Log] Navigating to URL 
+2016-04-26 15:37:32,036 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-26 15:37:37,245 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-26 15:37:37,451 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-26 15:37:37,638 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-26 15:37:38,902 INFO  [Log] Wait for 5 seconds 
+2016-04-26 15:37:43,973 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-26 15:37:45,227 INFO  [Log] Closing the browser 
+2016-04-26 15:37:46,452 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 15:37:46,453 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:46,453 INFO  [Log] X 
+2016-04-26 15:37:46,453 INFO  [Log] X 
+2016-04-26 15:37:46,453 INFO  [Log] X 
+2016-04-26 15:37:46,453 INFO  [Log] X 
+2016-04-26 15:37:46,453 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:46,453 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:46,453 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 15:37:46,453 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:46,453 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:37:46,453 INFO  [Log] Opening Browser 
+2016-04-26 15:38:01,676 INFO  [Log] Navigating to URL 
+2016-04-26 15:38:12,274 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-26 15:38:17,531 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-26 15:38:18,146 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-26 15:38:18,800 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-26 15:38:20,513 INFO  [Log] Wait for 5 seconds 
+2016-04-26 15:38:25,578 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-26 15:38:31,163 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-26 15:38:31,571 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 206 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir17624_310}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f065b53c3100eb25ac121966a023b8b7 
+2016-04-26 15:38:31,617 INFO  [Log] Closing the browser 
+2016-04-26 15:38:32,593 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 15:38:32,593 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:38:32,593 INFO  [Log] X 
+2016-04-26 15:38:32,593 INFO  [Log] X 
+2016-04-26 15:38:32,593 INFO  [Log] X 
+2016-04-26 15:38:32,593 INFO  [Log] X 
+2016-04-26 15:50:38,547 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:50:38,548 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:50:38,548 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 15:50:38,548 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:50:38,548 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:50:38,551 INFO  [Log] Opening Browser 
+2016-04-26 15:50:54,041 INFO  [Log] Navigating to URL 
+2016-04-26 15:51:05,624 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-26 15:51:11,088 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-26 15:51:11,716 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-26 15:51:12,352 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-26 15:51:13,927 INFO  [Log] Wait for 5 seconds 
+2016-04-26 15:51:18,980 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-26 15:51:25,426 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-26 15:51:25,851 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 212 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir13456_18596}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 87bb12f07241ebb5be7c7ad1e88ba013 
+2016-04-26 15:51:25,879 INFO  [Log] Closing the browser 
+2016-04-26 15:51:26,916 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 15:51:26,916 INFO  [Log] **************************************************************************************** 
+2016-04-26 15:51:26,916 INFO  [Log] X 
+2016-04-26 15:51:26,916 INFO  [Log] X 
+2016-04-26 15:51:26,916 INFO  [Log] X 
+2016-04-26 15:51:26,916 INFO  [Log] X 
+2016-04-26 17:01:25,349 INFO  [Log] **************************************************************************************** 
+2016-04-26 17:01:25,349 INFO  [Log] **************************************************************************************** 
+2016-04-26 17:01:25,350 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-26 17:01:25,350 INFO  [Log] **************************************************************************************** 
+2016-04-26 17:01:25,350 INFO  [Log] **************************************************************************************** 
+2016-04-26 17:01:25,352 INFO  [Log] Opening Browser 
+2016-04-26 17:01:41,156 INFO  [Log] Navigating to URL 
+2016-04-26 17:01:50,288 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-26 17:01:55,518 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-26 17:01:56,334 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-26 17:01:57,051 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-26 17:01:58,714 INFO  [Log] Wait for 5 seconds 
+2016-04-26 17:02:03,821 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-26 17:02:10,476 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-26 17:02:10,844 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir18716_23845}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e1cc3cb1a4bb40fc4a812124979f1557 
+2016-04-27 08:57:15,242 INFO  [Log] **************************************************************************************** 
+2016-04-27 08:57:15,242 INFO  [Log] **************************************************************************************** 
+2016-04-27 08:57:15,242 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 08:57:15,242 INFO  [Log] **************************************************************************************** 
+2016-04-27 08:57:15,243 INFO  [Log] **************************************************************************************** 
+2016-04-27 08:57:15,245 INFO  [Log] Opening Browser 
+2016-04-27 08:57:35,594 INFO  [Log] Navigating to URL 
+2016-04-27 08:57:48,438 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 08:57:54,727 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 08:57:55,306 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 08:57:55,955 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 08:57:57,593 INFO  [Log] Wait for 5 seconds 
+2016-04-27 08:58:02,653 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 08:58:04,352 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 08:58:04,822 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 208 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir18932_2401}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 731c6c62063a8fdde41d4195d8c7abfb 
+2016-04-27 09:02:31,816 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:02:31,816 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:02:31,816 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:02:31,816 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:02:31,816 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:02:31,819 INFO  [Log] Opening Browser 
+2016-04-27 09:03:16,249 INFO  [Log] Navigating to URL 
+2016-04-27 09:03:24,832 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 09:03:38,842 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 09:03:39,520 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 09:03:40,150 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 09:03:41,830 INFO  [Log] Wait for 5 seconds 
+2016-04-27 09:03:46,864 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 09:03:47,791 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 09:03:48,270 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 275 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir13616_15356}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f944923cb7cace293cd79e3dba981964 
+2016-04-27 09:04:47,688 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:04:47,688 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:04:47,689 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:04:47,689 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:04:47,689 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:04:47,692 INFO  [Log] Opening Browser 
+2016-04-27 09:05:09,669 INFO  [Log] Not able to open Browser --- no such element: Unable to locate element: {"method":"name","selector":"lognsfc"}
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir16124_11004}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 47042483bd1381b3d108c6f699572bc3
+*** Element info: {Using=name, value=lognsfc} 
+2016-04-27 09:07:48,492 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:07:48,492 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:07:48,492 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:07:48,492 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:07:48,492 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:07:48,495 INFO  [Log] Opening Browser 
+2016-04-27 09:08:04,229 INFO  [Log] Navigating to URL 
+2016-04-27 09:08:16,543 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 09:08:22,855 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 09:08:23,524 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 09:08:24,164 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 09:08:25,896 INFO  [Log] Wait for 5 seconds 
+2016-04-27 09:08:30,930 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 09:08:32,134 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 09:08:32,264 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir12548_19670}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2ae297f3e57a6a2b940c5cab37ba415f 
+2016-04-27 09:16:58,638 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:16:58,638 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:16:58,638 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:16:58,638 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:16:58,638 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:16:58,641 INFO  [Log] Opening Browser 
+2016-04-27 09:17:13,988 INFO  [Log] Navigating to URL 
+2016-04-27 09:17:26,823 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 09:17:32,837 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 09:17:33,489 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 09:17:34,158 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 09:17:35,827 INFO  [Log] Wait for 5 seconds 
+2016-04-27 09:17:40,889 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 09:17:41,756 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 09:17:42,135 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 204 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir18340_26500}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dcccee7afb9b0ae68179111aa483eb3f 
+2016-04-27 09:23:33,071 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:23:33,072 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:23:33,072 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:23:33,072 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:23:33,072 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:23:33,075 INFO  [Log] Opening Browser 
+2016-04-27 09:23:48,634 INFO  [Log] Navigating to URL 
+2016-04-27 09:23:58,596 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 09:24:03,588 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 09:24:04,294 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 09:24:04,975 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 09:24:06,775 INFO  [Log] Wait for 5 seconds 
+2016-04-27 09:24:11,844 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 09:24:12,799 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 09:24:13,197 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 222 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir11956_24697}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab13a01c070378132491cf5e8d3eb9ae 
+2016-04-27 09:32:03,198 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:32:03,199 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:32:03,199 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:32:03,199 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:32:03,199 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:32:03,201 INFO  [Log] Opening Browser 
+2016-04-27 09:32:18,987 INFO  [Log] Navigating to URL 
+2016-04-27 09:32:31,547 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 09:32:36,256 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 09:32:36,790 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 09:32:37,403 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 09:32:39,162 INFO  [Log] Wait for 5 seconds 
+2016-04-27 09:32:44,226 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 09:32:45,624 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 09:32:46,134 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 265 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir19836_14116}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: de98dc1a28ea7f9fc25c181e09d40a4e 
+2016-04-27 09:35:39,690 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:35:39,690 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:35:39,690 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 09:35:39,691 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:35:39,691 INFO  [Log] **************************************************************************************** 
+2016-04-27 09:35:39,694 INFO  [Log] Opening Browser 
+2016-04-27 09:35:55,758 INFO  [Log] Navigating to URL 
+2016-04-27 09:36:06,661 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 09:36:11,385 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 09:36:11,633 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 09:36:11,810 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 09:36:13,052 INFO  [Log] Wait for 5 seconds 
+2016-04-27 09:36:18,116 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 09:36:18,793 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 09:36:18,927 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir13556_32047}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d348dd3c13ad5f7f2a3477276fb557ee 
+2016-04-27 10:19:03,231 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:19:03,231 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:19:03,231 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 10:19:03,231 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:19:03,231 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:19:03,231 INFO  [Log] Opening Browser 
+2016-04-27 10:19:18,901 INFO  [Log] Navigating to URL 
+2016-04-27 10:19:29,663 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 10:19:34,621 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 10:19:35,250 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 10:19:35,746 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 10:19:37,334 INFO  [Log] Wait for 5 seconds 
+2016-04-27 10:19:42,444 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 10:19:43,267 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 10:19:43,699 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 218 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir18716_26929}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7986ee7a54e43d83f8978902591a2b5b 
+2016-04-27 10:29:08,367 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:29:08,367 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:29:08,367 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 10:29:08,367 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:29:08,367 INFO  [Log] **************************************************************************************** 
+2016-04-27 10:29:08,367 INFO  [Log] Opening Browser 
+2016-04-27 10:29:25,160 INFO  [Log] Navigating to URL 
+2016-04-27 10:29:37,426 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 10:29:43,566 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 10:29:44,284 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 10:29:44,788 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 10:29:46,423 INFO  [Log] Wait for 5 seconds 
+2016-04-27 10:29:51,457 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 10:29:52,408 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 10:29:52,736 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 172 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir18624_6439}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c30331307ab65fd702d76d51b4cd92a3 
+2016-04-27 11:22:17,067 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:22:17,067 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:22:17,067 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 11:22:17,067 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:22:17,067 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:22:17,098 INFO  [Log] Opening Browser 
+2016-04-27 11:22:46,022 INFO  [Log] Navigating to URL 
+2016-04-27 11:22:55,378 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 11:23:05,543 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 11:23:11,047 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 11:23:16,685 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 11:23:23,492 INFO  [Log] Wait for 5 seconds 
+2016-04-27 11:23:33,500 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 11:23:39,337 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 11:23:39,805 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 249 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir18180_4017}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b82c41febc93581cc3e3b0d6824e7c67 
+2016-04-27 11:26:12,918 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:26:12,918 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:26:12,918 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 11:26:12,918 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:26:12,918 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:26:12,949 INFO  [Log] Opening Browser 
+2016-04-27 11:26:42,769 INFO  [Log] Navigating to URL 
+2016-04-27 11:26:52,428 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 11:27:02,577 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 11:27:08,108 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 11:27:13,731 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 11:27:20,508 INFO  [Log] Wait for 5 seconds 
+2016-04-27 11:27:30,246 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 11:27:35,934 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 11:27:36,448 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 218 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir19608_29836}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37ac1d18be5e5ffa3f0fa9b6d1baa4fe 
+2016-04-27 11:35:32,902 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:35:32,902 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:35:32,902 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 11:35:32,902 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:35:32,902 INFO  [Log] **************************************************************************************** 
+2016-04-27 11:35:32,902 INFO  [Log] Opening Browser 
+2016-04-27 11:35:50,546 INFO  [Log] Navigating to URL 
+2016-04-27 11:36:00,747 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 11:36:05,658 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 11:36:06,308 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 11:36:06,921 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 11:36:08,612 INFO  [Log] Wait for 5 seconds 
+2016-04-27 11:36:13,662 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 11:36:14,494 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 11:36:15,025 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 234 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir16336_20719}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f4925a8a7ee1842b77b5eb8cd2dfe87d 
+2016-04-27 12:54:20,439 INFO  [Log] **************************************************************************************** 
+2016-04-27 12:54:20,439 INFO  [Log] **************************************************************************************** 
+2016-04-27 12:54:20,439 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 12:54:20,439 INFO  [Log] **************************************************************************************** 
+2016-04-27 12:54:20,439 INFO  [Log] **************************************************************************************** 
+2016-04-27 12:54:20,439 INFO  [Log] Opening Browser 
+2016-04-27 12:54:36,984 INFO  [Log] Navigating to URL 
+2016-04-27 12:54:46,973 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 12:54:51,976 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 12:54:52,174 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 12:54:52,350 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 12:54:53,646 INFO  [Log] Wait for 5 seconds 
+2016-04-27 12:54:58,759 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 12:54:59,381 INFO  [Log] Clicking on Webelement lnk_iPhones 
+2016-04-27 12:54:59,534 ERROR [Log] Not able to click --- element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 74 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir17660_32720}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55db6ce320b7c2a77c313c9e52fb16eb 
+2016-04-27 15:57:06,120 INFO  [Log] **************************************************************************************** 
+2016-04-27 15:57:06,136 INFO  [Log] **************************************************************************************** 
+2016-04-27 15:57:06,136 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 15:57:06,136 INFO  [Log] **************************************************************************************** 
+2016-04-27 15:57:06,136 INFO  [Log] **************************************************************************************** 
+2016-04-27 15:57:06,136 INFO  [Log] Opening Browser 
+2016-04-27 15:57:26,767 INFO  [Log] Navigating to URL 
+2016-04-27 15:57:39,588 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 15:57:44,606 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 15:57:45,325 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 15:57:46,053 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 15:57:47,730 INFO  [Log] Wait for 5 seconds 
+2016-04-27 15:57:52,801 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 15:58:00,357 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-27 16:12:34,482 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:12:34,482 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:12:34,482 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 16:12:34,482 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:12:34,482 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:12:34,482 INFO  [Log] Opening Browser 
+2016-04-27 16:12:51,777 INFO  [Log] Navigating to URL 
+2016-04-27 16:13:01,202 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 16:13:06,829 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 16:13:07,533 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 16:13:08,143 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 16:13:09,925 INFO  [Log] Wait for 5 seconds 
+2016-04-27 16:13:19,473 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 16:14:12,449 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:14:12,449 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:14:12,449 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 16:14:12,449 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:14:12,449 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:14:12,449 INFO  [Log] Opening Browser 
+2016-04-27 16:14:27,127 INFO  [Log] Navigating to URL 
+2016-04-27 16:14:37,479 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 16:14:41,743 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 16:14:41,919 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 16:14:42,096 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 16:14:43,338 INFO  [Log] Wait for 5 seconds 
+2016-04-27 16:14:48,430 INFO  [Log] MouseHover element: lnk_ProductCategory 
+2016-04-27 16:14:53,644 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-27 16:14:53,769 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-27 16:14:55,019 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-27 16:15:00,495 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : Cannot get a text value from a numeric cell 
+2016-04-27 16:15:00,495 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-27 16:15:00,589 INFO  [Log] Closing the browser 
+2016-04-27 16:15:02,255 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 16:15:02,255 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:15:02,255 INFO  [Log] X 
+2016-04-27 16:15:02,255 INFO  [Log] X 
+2016-04-27 16:15:02,255 INFO  [Log] X 
+2016-04-27 16:15:02,255 INFO  [Log] X 
+2016-04-27 16:43:52,328 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:43:52,328 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:43:52,328 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-27 16:43:52,328 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:43:52,328 INFO  [Log] **************************************************************************************** 
+2016-04-27 16:43:52,328 INFO  [Log] Opening Browser 
+2016-04-27 16:44:11,430 INFO  [Log] Navigating to URL 
+2016-04-27 16:44:20,936 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-27 16:44:27,770 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-27 16:44:28,324 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-27 16:44:29,004 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-27 16:44:31,708 INFO  [Log] Wait for 5 seconds 
+2016-04-27 16:44:36,785 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-27 16:44:42,954 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-27 16:44:43,455 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-27 16:44:46,154 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-27 16:44:52,932 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : Cannot get a text value from a numeric cell 
