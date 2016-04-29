@@ -590,3 +590,69 @@
 2016-04-29 14:54:28,086 INFO  [Log] X 
 2016-04-29 14:54:28,086 INFO  [Log] X 
 2016-04-29 14:54:28,086 INFO  [Log] X 
+2016-04-29 16:01:11,479 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,480 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,480 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:01:11,480 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,480 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,483 INFO  [Log] Opening Browser 
+2016-04-29 16:01:26,842 INFO  [Log] Navigating to URL 
+2016-04-29 16:01:38,375 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:01:45,607 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:01:46,262 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:01:46,837 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:01:49,531 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:01:54,562 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-29 16:01:57,232 INFO  [Log] Closing the browser 
+2016-04-29 16:01:58,379 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:01:58,379 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,548 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:01:58,549 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] Opening Browser 
+2016-04-29 16:02:13,853 INFO  [Log] Navigating to URL 
+2016-04-29 16:02:23,556 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:02:30,465 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:02:31,078 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:02:31,825 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:02:34,517 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:02:39,571 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-04-29 16:02:40,189 INFO  [Log] Closing the browser 
+2016-04-29 16:02:41,117 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:02:41,117 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,117 INFO  [Log] X 
+2016-04-29 16:02:41,117 INFO  [Log] X 
+2016-04-29 16:02:41,117 INFO  [Log] X 
+2016-04-29 16:02:41,118 INFO  [Log] X 
+2016-04-29 16:02:41,145 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] Opening Browser 
+2016-04-29 16:02:58,466 INFO  [Log] Navigating to URL 
+2016-04-29 16:03:25,558 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:03:31,112 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:03:31,744 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:03:32,244 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:03:34,961 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:03:40,017 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 16:03:46,610 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 16:03:47,020 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 16:03:49,710 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 16:03:56,840 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 16:03:57,596 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 16:03:58,436 INFO  [Log] Closing the browser 
+2016-04-29 16:03:59,438 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:03:59,438 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:03:59,438 INFO  [Log] X 
