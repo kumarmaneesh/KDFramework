@@ -37,6 +37,7 @@ public class ActionKeywords {
 
 	public static void openBrowser(String object,String value) throws InterruptedException{	
 		try{
+			DriverScript.bResult = true;
 			if(value.equalsIgnoreCase("chrome")){
 				System.out.println("launching Chrome browser");
 				Log.info("Opening Browser");
@@ -77,6 +78,7 @@ public class ActionKeywords {
 
 	public static void navigate(String object,String value){
 		try{
+			DriverScript.bResult = true;
 			Log.info("Navigating to URL");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get(Constants.URL);
@@ -88,10 +90,11 @@ public class ActionKeywords {
 
 	public static void click(String object,String value){
 		try{
+			DriverScript.bResult = true;
 			Log.info("Clicking on Webelement "+ object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
 			Thread.sleep(2000);
-			
+
 			//WebDriverWait wait = new WebDriverWait(driver, 15); 
 			//wait.until(ExpectedConditions.titleContains("Google"));
 		}catch(Exception e){
@@ -101,6 +104,7 @@ public class ActionKeywords {
 	}
 
 	public static void input(String object,String value){
+		DriverScript.bResult = true;
 		Log.info("Entering the text in: "+ object);
 		driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(value); 
 	}
@@ -114,14 +118,15 @@ public class ActionKeywords {
 			}*/
 
 	public static void waitFor(String object,String value) throws Exception{
+		DriverScript.bResult = true;
 		Log.info("Wait for 5 seconds");
 		Thread.sleep(5000);
 	}
 
-	public static void verifyText(String object,String value){
-		WebDriverWait wait = new WebDriverWait(driver, 15); 
-		wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
-		
+	public static void verifyText(String object,String value) throws IOException{
+		//WebDriverWait wait = new WebDriverWait(driver, 15); 
+		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
+		DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(value)){
@@ -129,16 +134,25 @@ public class ActionKeywords {
 		}
 		else{
 			System.out.println("Verification Failed");
+			System.out.println("Expected Value: " + value);
+			System.out.println("Actual Value: " + objText);
+			driver.getCurrentUrl();
+			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String dest = config.Constants.Screenshots_Path + object + ".png";
+			File destination = new File(dest);
+			FileUtils.copyFile(source, destination);
+			System.out.println("Snapshot taken!");	
+			DriverScript.bResult = false;
 		}
 	}
-	
+
 	public static void verifyValue(String object,String value) throws IOException{
 		//WebDriverWait wait = new WebDriverWait(driver, 15); 
 		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
-		
+		DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objValue = driver.findElement(By.xpath(OR.getProperty(object))).getAttribute("value");
-		
+
 		if(objValue.equalsIgnoreCase(value)){
 			System.out.println("Verification Successful");
 			System.out.println("Expected Value: " + value);
@@ -159,6 +173,7 @@ public class ActionKeywords {
 	}
 
 	public static void verifyStoredText(String object,String value) throws IOException{
+		DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(storedText)){
@@ -182,6 +197,7 @@ public class ActionKeywords {
 	}
 
 	public static String storeValue(String object,String value){
+		DriverScript.bResult = true;
 		Log.info("Store Text in a variable for: " + object);
 		storedText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		return storedText;
@@ -189,13 +205,14 @@ public class ActionKeywords {
 
 	public static void mouseHover(String object,String value) throws InterruptedException{
 		try{
-		Log.info("MouseHover element: "+ object + " and clicking on: " + value);
-		Actions action = new Actions(driver);
-		WebElement we = driver.findElement(By.xpath(OR.getProperty(object)));
-		WebElement we2 = driver.findElement(By.xpath(OR.getProperty(value)));
-		Thread.sleep(500);
-		action.moveToElement(we).moveToElement(we2).click().perform();
-		Thread.sleep(500);
+			DriverScript.bResult = true;
+			Log.info("MouseHover element: "+ object + " and clicking on: " + value);
+			Actions action = new Actions(driver);
+			WebElement we = driver.findElement(By.xpath(OR.getProperty(object)));
+			WebElement we2 = driver.findElement(By.xpath(OR.getProperty(value)));
+			Thread.sleep(500);
+			action.moveToElement(we).moveToElement(we2).click().perform();
+			Thread.sleep(500);
 		}catch(Exception e){
 			Log.error("Not able to perform MouseHover --- " + e.getMessage());
 			DriverScript.bResult = false;
