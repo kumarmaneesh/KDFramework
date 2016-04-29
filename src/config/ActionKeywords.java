@@ -4,9 +4,14 @@ package config;
 //import pageObjects.LoginPage;
 import static executionEngine.DriverScript.OR;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,11 +19,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.relevantcodes.extentreports.ExtentReports;
-
 import executionEngine.DriverScript;
 import utility.Log;
+
 
 public class ActionKeywords {
 
@@ -114,7 +118,7 @@ public class ActionKeywords {
 		Thread.sleep(5000);
 	}
 
-	public static void verify(String object,String value){
+	public static void verifyText(String object,String value){
 		WebDriverWait wait = new WebDriverWait(driver, 15); 
 		wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
 		
@@ -127,18 +131,53 @@ public class ActionKeywords {
 			System.out.println("Verification Failed");
 		}
 	}
+	
+	public static void verifyValue(String object,String value) throws IOException{
+		//WebDriverWait wait = new WebDriverWait(driver, 15); 
+		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
+		
+		Log.info("Verifying Text for item: " + object);
+		String objValue = driver.findElement(By.xpath(OR.getProperty(object))).getAttribute("value");
+		
+		if(objValue.equalsIgnoreCase(value)){
+			System.out.println("Verification Successful");
+			System.out.println("Expected Value: " + value);
+			System.out.println("Actual Value: " + objValue);
+		}
+		else{
+			System.out.println("Verification Failed");
+			System.out.println("Expected Value: " + value);
+			System.out.println("Actual Value: " + objValue);
+			driver.getCurrentUrl();
+			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String dest = config.Constants.Screenshots_Path + object + ".png";
+			File destination = new File(dest);
+			FileUtils.copyFile(source, destination);
+			System.out.println("Snapshot taken!");	
+			DriverScript.bResult = false;
+		}
+	}
 
-	public static void verifyStoredText(String object,String value){
+	public static void verifyStoredText(String object,String value) throws IOException{
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(storedText)){
 			Log.info("Stored Text for object "+ object +"is: " + storedText);
 			System.out.println("Verification Successful for stored text");
+			System.out.println("Expected Value: " + storedText);
+			System.out.println("Actual Value: " + objText);
 		}
 		else{
 			System.out.println("Verification Failed for stored text");
 			System.out.println("Expected Value: " + storedText);
 			System.out.println("Actual Value: " + objText);
+			driver.getCurrentUrl();
+			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String dest = config.Constants.Screenshots_Path + object + ".png";
+			File destination = new File(dest);
+			FileUtils.copyFile(source, destination);
+			System.out.println("Snapshot taken!");			
+			DriverScript.bResult = false;
 		}
 	}
 
@@ -165,6 +204,7 @@ public class ActionKeywords {
 
 	public static void closeBrowser(String object,String value){
 		try{
+			DriverScript.bResult = true;
 			Log.info("Closing the browser");
 			driver.quit();
 		}catch(Exception e){

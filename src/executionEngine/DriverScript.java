@@ -127,20 +127,14 @@ public class DriverScript {
 							//If 'false' then store the test case result as Fail
 							ExcelUtils.setCellData(Constants.KEYWORD_FAIL,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 							//End the test case in the logs
-							Log.endTestCase(sTestCaseID);
+							//Log.endTestCase(sTestCaseID);
 
 							//testExt.log(LogStatus.FAIL, "Test Case Failed: " + sTestCaseID);
 
 							//By this break statement, execution flow will not execute any more test step of the failed test case	
-							break;
+							//break;
 						}
 					}
-
-					// ending test
-					extent.endTest(testExt);
-					// writing everything to document
-					extent.flush();
-
 
 					//This will only execute after the last step of the test case, if value is not 'false' at any step	
 					if(bResult==true){
@@ -148,16 +142,22 @@ public class DriverScript {
 						ExcelUtils.setCellData(Constants.KEYWORD_PASS,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 						Log.endTestCase(sTestCaseID);
 					}
+					
+					// ending test
+					extent.endTest(testExt);
+					// writing everything to document
+					extent.flush();
 				}
 			}
 		}catch(Exception e){
-			System.out.println("TC Failed due to exception: " +e);
+			System.out.println("TC Failed due to exception: " +e.getMessage());
 		}
-		finally{
+		/*finally{
+			//driver.close();
 			driver.quit();
 			//driver.get(config.Constants.Report_Path);
 			//System.out.println("");
-		}
+		}*/
 	}
 
 
@@ -187,10 +187,11 @@ public class DriverScript {
 					sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
 					//step log
 					testExt.log(LogStatus.FAIL, "Test Step Failed: " + sTestStepDesc);
-					//String ssPath = captureScreenshot(sPageObject);
+					
+					String ssPath = config.Constants.Screenshots_Path + sPageObject +".png";
 					//inserting snapshot
-					//testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(ssPath));
-					ActionKeywords.closeBrowser("","");
+					testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(ssPath));
+					//ActionKeywords.closeBrowser("","");
 					break;
 				}
 			}
@@ -200,7 +201,7 @@ public class DriverScript {
 	//This method will take screenshots
 	public static String captureScreenshot(String snapshotName) { 
 		try{
-			driver.get("https://www.google.com");
+			driver.getCurrentUrl();
 			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);			
 			String dest = config.Constants.Screenshots_Path + snapshotName + ".png";
 			File destination = new File(dest);

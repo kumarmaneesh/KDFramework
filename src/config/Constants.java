@@ -9,9 +9,9 @@ public class Constants {
 	public static final String URL = "http://www.store.demoqa.com";
 	public static final String Path_TestData = "C://Users//ttc.mk//workspace//KDFramework//src//dataEngine//DataEngine.xlsx";
 	public static final String File_TestData = "DataEngine.xlsx";
-	public static final String Path_OR = "C://Users//ttc.mk//workspace//KDFramework//src////config//OR.txt";
+	public static final String Path_OR = "C://Users//ttc.mk//workspace//KDFramework//src//config//OR.txt";
 	public static final String Report_Path = "C://Users//ttc.mk//Desktop//MK//AutomationReport.html";
-	public static final String Screenshots_Path = "D:\\";
+	public static final String Screenshots_Path = "C://Users//ttc.mk//workspace//KDFramework//Snapshots//";
 
 	//List of Data Sheet Column Numbers
 	public static final int Col_TestCaseID = 0;	
