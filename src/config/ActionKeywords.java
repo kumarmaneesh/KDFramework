@@ -7,7 +7,6 @@ import static executionEngine.DriverScript.OR;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -17,9 +16,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import com.relevantcodes.extentreports.ExtentReports;
+//import com.relevantcodes.extentreports.ExtentReports;
 import executionEngine.DriverScript;
 import utility.Log;
 
@@ -27,9 +24,9 @@ import utility.Log;
 public class ActionKeywords {
 
 	public static WebDriver driver;
-	public static ExtentReports extent;
+	//public static ExtentReports extent;
 
-	static String driverPath = "C:\\Users\\ttc.mk\\Desktop\\MK\\";
+	//static String driverPath = "C:\\Users\\ttc.mk\\Desktop\\MK\\";
 
 	private static String storedText;
 
@@ -37,11 +34,11 @@ public class ActionKeywords {
 
 	public static void openBrowser(String object,String value) throws InterruptedException{	
 		try{
-			DriverScript.bResult = true;
+			//DriverScript.bResult = true;
 			if(value.equalsIgnoreCase("chrome")){
 				System.out.println("launching Chrome browser");
 				Log.info("Opening Browser");
-				System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", config.Constants.ChromeDriverPath+"chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 
@@ -78,7 +75,7 @@ public class ActionKeywords {
 
 	public static void navigate(String object,String value){
 		try{
-			DriverScript.bResult = true;
+			//DriverScript.bResult = true;
 			Log.info("Navigating to URL");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get(Constants.URL);
@@ -90,7 +87,7 @@ public class ActionKeywords {
 
 	public static void click(String object,String value){
 		try{
-			DriverScript.bResult = true;
+			//DriverScript.bResult = true;
 			Log.info("Clicking on Webelement "+ object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
 			Thread.sleep(2000);
@@ -104,7 +101,7 @@ public class ActionKeywords {
 	}
 
 	public static void input(String object,String value){
-		DriverScript.bResult = true;
+		//DriverScript.bResult = true;
 		Log.info("Entering the text in: "+ object);
 		driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(value); 
 	}
@@ -118,7 +115,7 @@ public class ActionKeywords {
 			}*/
 
 	public static void waitFor(String object,String value) throws Exception{
-		DriverScript.bResult = true;
+		//DriverScript.bResult = true;
 		Log.info("Wait for 5 seconds");
 		Thread.sleep(5000);
 	}
@@ -126,7 +123,7 @@ public class ActionKeywords {
 	public static void verifyText(String object,String value) throws IOException{
 		//WebDriverWait wait = new WebDriverWait(driver, 15); 
 		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
-		DriverScript.bResult = true;
+		//DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(value)){
@@ -142,14 +139,14 @@ public class ActionKeywords {
 			File destination = new File(dest);
 			FileUtils.copyFile(source, destination);
 			System.out.println("Snapshot taken!");	
-			DriverScript.bResult = false;
+			DriverScript.bResultVerify = false;
 		}
 	}
 
 	public static void verifyValue(String object,String value) throws IOException{
 		//WebDriverWait wait = new WebDriverWait(driver, 15); 
 		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
-		DriverScript.bResult = true;
+		//DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objValue = driver.findElement(By.xpath(OR.getProperty(object))).getAttribute("value");
 
@@ -168,12 +165,12 @@ public class ActionKeywords {
 			File destination = new File(dest);
 			FileUtils.copyFile(source, destination);
 			System.out.println("Snapshot taken!");	
-			DriverScript.bResult = false;
+			DriverScript.bResultVerify = false;
 		}
 	}
 
 	public static void verifyStoredText(String object,String value) throws IOException{
-		DriverScript.bResult = true;
+		//DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(storedText)){
@@ -192,12 +189,12 @@ public class ActionKeywords {
 			File destination = new File(dest);
 			FileUtils.copyFile(source, destination);
 			System.out.println("Snapshot taken!");			
-			DriverScript.bResult = false;
+			DriverScript.bResultVerify = false;
 		}
 	}
 
 	public static String storeValue(String object,String value){
-		DriverScript.bResult = true;
+		//DriverScript.bResult = true;
 		Log.info("Store Text in a variable for: " + object);
 		storedText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		return storedText;
@@ -205,7 +202,7 @@ public class ActionKeywords {
 
 	public static void mouseHover(String object,String value) throws InterruptedException{
 		try{
-			DriverScript.bResult = true;
+			//DriverScript.bResult = true;
 			Log.info("MouseHover element: "+ object + " and clicking on: " + value);
 			Actions action = new Actions(driver);
 			WebElement we = driver.findElement(By.xpath(OR.getProperty(object)));
@@ -221,7 +218,7 @@ public class ActionKeywords {
 
 	public static void closeBrowser(String object,String value){
 		try{
-			DriverScript.bResult = true;
+			//DriverScript.bResult = true;
 			Log.info("Closing the browser");
 			driver.quit();
 		}catch(Exception e){

@@ -7,12 +7,14 @@ public class Constants {
 	//Declared as 'final', so that the value of this variable can be changed
 	// 'String' & 'int' are the data type for storing a type of value
 	public static final String WSPath = "C://Users//ttc.mk//workspace";
+	public static final String ChromeDriverPath = "C://AutomationUtils//";
 	public static final String URL = "http://www.store.demoqa.com";
 	public static final String Path_TestData = WSPath+"//KDFramework//src//dataEngine//DataEngine.xlsx";
 	public static final String File_TestData = "DataEngine.xlsx";
 	public static final String Path_OR = WSPath+"//KDFramework//src//config//OR.txt";
 	public static final String Report_Path = WSPath+"//KDFramework//AutomationReport.html";
 	public static final String Screenshots_Path = WSPath+"//KDFramework//Snapshots//";
+	
 
 	//List of Data Sheet Column Numbers
 	public static final int Col_TestCaseID = 0;	

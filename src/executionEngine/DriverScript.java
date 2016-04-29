@@ -39,6 +39,7 @@ public class DriverScript {
 	public static String sTestStepDesc;
 	public static String sRunMode;
 	public static boolean bResult;
+	public static boolean bResultVerify;
 
 	public static WebDriver driver;
 
@@ -96,6 +97,7 @@ public class DriverScript {
 			for(int iTestcase=1;iTestcase<iTotalTestCases;iTestcase++){
 				//Setting the value of bResult variable to 'true' before starting every test case
 				bResult = true;
+				bResultVerify = true;
 				//This is to get the Test case name from the Test Cases sheet
 				sTestCaseID = ExcelUtils.getCellData(iTestcase, Constants.Col_TestCaseID, Constants.Sheet_TestCases);
 				sTestCaseDesc = ExcelUtils.getCellData(iTestcase, Constants.Col_TestCaseDesc, Constants.Sheet_TestCases);
@@ -123,7 +125,7 @@ public class DriverScript {
 						execute_Actions();
 						//This is the result code, this code will execute after each test step
 						//The execution flow will go in to this only if the value of bResult is 'false'
-						if(bResult==false){
+						if(bResult==false || bResultVerify==false){
 							//If 'false' then store the test case result as Fail
 							ExcelUtils.setCellData(Constants.KEYWORD_FAIL,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 							//End the test case in the logs
@@ -137,82 +139,85 @@ public class DriverScript {
 					}
 
 					//This will only execute after the last step of the test case, if value is not 'false' at any step	
-					if(bResult==true){
+					if(bResult==true && bResultVerify==true){
 						//Storing the result as Pass in the excel sheet
 						ExcelUtils.setCellData(Constants.KEYWORD_PASS,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 						Log.endTestCase(sTestCaseID);
+					}else{						
+						ExcelUtils.setCellData(Constants.KEYWORD_FAIL,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
+						Log.endTestCase(sTestCaseID);
 					}
-					
-					// ending test
-					extent.endTest(testExt);
-					// writing everything to document
-					extent.flush();
-				}
+
+				// ending test
+				extent.endTest(testExt);
+				// writing everything to document
+				extent.flush();
 			}
-		}catch(Exception e){
-			System.out.println("TC Failed due to exception: " +e.getMessage());
 		}
-		/*finally{
+	}catch(Exception e){
+		System.out.println("TC Failed due to exception: " +e.getMessage());
+	}
+	/*finally{
 			//driver.close();
 			driver.quit();
 			//driver.get(config.Constants.Report_Path);
 			//System.out.println("");
 		}*/
-	}
+}
 
 
-	//This method contains the code to perform some action
-	//As it is completely different set of logic, which revolves around the action only,
-	//It makes sense to keep it separate from the main driver script
-	//This is to execute test step (Action)
-	private static void execute_Actions() throws Exception {
+//This method contains the code to perform some action
+//As it is completely different set of logic, which revolves around the action only,
+//It makes sense to keep it separate from the main driver script
+//This is to execute test step (Action)
+private static void execute_Actions() throws Exception {
 
-		for(int i=0;i<method.length;i++){
+	for(int i=0;i<method.length;i++){
 
-			if(method[i].getName().equals(sActionKeyword)){
-				method[i].invoke(actionKeywords,sPageObject,sTestData);
-				//This code block will execute after every test step
-				if(bResult==true){
-					//If the executed test step value is true, Pass the test step in Excel sheet
-					ExcelUtils.setCellData(Constants.KEYWORD_PASS, iTestStep, Constants.Col_TestStepResult, Constants.Sheet_TestSteps);
-					sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
-					// step log
-					testExt.log(LogStatus.PASS, "Test Step Passed: " + sTestStepDesc);
-					break;
-				}else{
-					//If the executed test step value is false, Fail the test step in Excel sheet
-					ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iTestStep, Constants.Col_TestStepResult, Constants.Sheet_TestSteps);
-					//In case of false, the test execution will not reach to last step of closing browser
-					//So it make sense to close the browser before moving on to next test case
-					sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
-					//step log
-					testExt.log(LogStatus.FAIL, "Test Step Failed: " + sTestStepDesc);
-					
-					String ssPath = config.Constants.Screenshots_Path + sPageObject +".png";
-					//inserting snapshot
-					testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(ssPath));
-					//ActionKeywords.closeBrowser("","");
-					break;
-				}
+		if(method[i].getName().equals(sActionKeyword)){
+			method[i].invoke(actionKeywords,sPageObject,sTestData);
+			//This code block will execute after every test step
+			if(bResult==true){
+				//If the executed test step value is true, Pass the test step in Excel sheet
+				ExcelUtils.setCellData(Constants.KEYWORD_PASS, iTestStep, Constants.Col_TestStepResult, Constants.Sheet_TestSteps);
+				sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
+				// step log
+				testExt.log(LogStatus.PASS, "Test Step Passed: " + sTestStepDesc);
+				break;
+			}else{
+				//If the executed test step value is false, Fail the test step in Excel sheet
+				ExcelUtils.setCellData(Constants.KEYWORD_FAIL, iTestStep, Constants.Col_TestStepResult, Constants.Sheet_TestSteps);
+				//In case of false, the test execution will not reach to last step of closing browser
+				//So it make sense to close the browser before moving on to next test case
+				sTestStepDesc = ExcelUtils.getCellData(iTestStep,Constants.Col_TestStepDesc,Constants.Sheet_TestSteps);
+				//step log
+				testExt.log(LogStatus.FAIL, "Test Step Failed: " + sTestStepDesc);
+
+				String ssPath = config.Constants.Screenshots_Path + sPageObject +".png";
+				//inserting snapshot
+				testExt.log(LogStatus.INFO, "Snapshot below: " + testExt.addScreenCapture(ssPath));
+				//ActionKeywords.closeBrowser("","");
+				break;
 			}
 		}
 	}
+}
 
-	//This method will take screenshots
-	public static String captureScreenshot(String snapshotName) { 
-		try{
-			driver.getCurrentUrl();
-			File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);			
-			String dest = config.Constants.Screenshots_Path + snapshotName + ".png";
-			File destination = new File(dest);
-			FileUtils.copyFile(source, destination);
-			System.out.println("Snapshot taken!");
-			return dest;
-		} catch (Exception e) {
-			System.out.println("Error while taking Snapshot " +e.getMessage());
-			return e.getMessage();
-		}
+//This method will take screenshots
+public static String captureScreenshot(String snapshotName) { 
+	try{
+		driver.getCurrentUrl();
+		File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);			
+		String dest = config.Constants.Screenshots_Path + snapshotName + ".png";
+		File destination = new File(dest);
+		FileUtils.copyFile(source, destination);
+		System.out.println("Snapshot taken!");
+		return dest;
+	} catch (Exception e) {
+		System.out.println("Error while taking Snapshot " +e.getMessage());
+		return e.getMessage();
 	}
+}
 
 
 }
