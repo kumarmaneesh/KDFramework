@@ -21,3 +21,7 @@ btn_Continue=.//span[text()='Continue']
 lnk_Product=.//a[contains(text(),'4S 16GB')]
 txtbx_Qty=.//form[@class='adjustform qty']//input[@name='quantity']
 lbl_SubTotal=.//span[@class='yourtotal']//span[@class='pricedisplay']
+btn_Continue=.//span[text()='Continue']
+
+# Address Page Objects
+ddl_ShippingCountry=.//select[@id='current_country']

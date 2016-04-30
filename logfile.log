@@ -1,932 +1,790 @@
-2016-04-15 10:15:50,789 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:15:50,789 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:15:50,789 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:15:50,804 INFO  [Log] Opening Browser 
-2016-04-15 10:16:11,392 INFO  [Log] Navigating to URL 
-2016-04-15 10:16:17,178 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 10:16:20,197 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 10:16:20,794 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 10:16:21,468 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 10:16:22,185 INFO  [Log] Wait for 5 seconds 
-2016-04-15 10:16:27,271 INFO  [Log] Verifying Text 
-2016-04-15 10:16:27,599 INFO  [Log] Closing the browser 
-2016-04-15 10:16:28,754 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 10:16:28,754 INFO  [Log] X 
-2016-04-15 10:16:28,754 INFO  [Log] X 
-2016-04-15 10:16:28,754 INFO  [Log] X 
-2016-04-15 10:16:28,754 INFO  [Log] X 
-2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:17:55,970 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:17:55,970 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:17:55,970 INFO  [Log] Opening Browser 
-2016-04-15 10:18:16,485 INFO  [Log] Navigating to URL 
-2016-04-15 10:18:20,385 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 10:18:23,407 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 10:18:23,950 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 10:18:24,541 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 10:18:25,207 INFO  [Log] Wait for 5 seconds 
-2016-04-15 10:18:30,263 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 10:18:30,803 INFO  [Log] Closing the browser 
-2016-04-15 10:18:31,801 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 10:18:31,801 INFO  [Log] X 
-2016-04-15 10:18:31,801 INFO  [Log] X 
-2016-04-15 10:18:31,801 INFO  [Log] X 
-2016-04-15 10:18:31,801 INFO  [Log] X 
-2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:18:39,964 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:18:39,964 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:18:39,964 INFO  [Log] Opening Browser 
-2016-04-15 10:19:00,844 INFO  [Log] Navigating to URL 
-2016-04-15 10:19:04,271 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 10:19:06,767 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 10:19:07,365 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 10:19:08,002 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 10:19:08,653 INFO  [Log] Wait for 5 seconds 
-2016-04-15 10:19:13,731 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 10:19:28,087 INFO  [Log] Closing the browser 
-2016-04-15 10:22:24,537 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 10:22:24,537 INFO  [Log] X 
-2016-04-15 10:22:24,537 INFO  [Log] X 
-2016-04-15 10:22:24,537 INFO  [Log] X 
-2016-04-15 10:22:24,537 INFO  [Log] X 
-2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:04,745 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:04,745 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:04,745 INFO  [Log] Opening Browser 
-2016-04-15 10:35:26,088 INFO  [Log] Navigating to URL 
-2016-04-15 10:35:30,351 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 10:35:33,108 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 10:35:33,949 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 10:35:34,548 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 10:35:35,158 INFO  [Log] Wait for 5 seconds 
-2016-04-15 10:35:40,239 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 10:35:40,902 INFO  [Log] Closing the browser 
-2016-04-15 10:35:42,362 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 10:35:42,362 INFO  [Log] X 
-2016-04-15 10:35:42,362 INFO  [Log] X 
-2016-04-15 10:35:42,362 INFO  [Log] X 
-2016-04-15 10:35:42,362 INFO  [Log] X 
-2016-04-15 10:35:42,362 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:42,362 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:42,362 INFO  [Log] **************************************************************************************** 
-2016-04-15 10:35:42,362 INFO  [Log] Opening Browser 
-2016-04-15 10:36:03,104 INFO  [Log] Navigating to URL 
-2016-04-15 10:36:06,466 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 10:36:10,103 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 10:36:10,758 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 10:36:11,260 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 10:36:12,054 INFO  [Log] Wait for 5 seconds 
-2016-04-15 10:36:17,118 INFO  [Log] Verifying Text 
-2016-04-15 10:36:17,680 INFO  [Log] Closing the browser 
-2016-04-15 10:36:18,538 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 10:36:18,538 INFO  [Log] X 
-2016-04-15 10:36:18,538 INFO  [Log] X 
-2016-04-15 10:36:18,538 INFO  [Log] X 
-2016-04-15 10:36:18,538 INFO  [Log] X 
-2016-04-15 10:36:18,538 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 10:36:18,538 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:56:39,051 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:56:39,051 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:56:39,051 INFO  [Log] Opening Browser 
-2016-04-15 12:57:00,727 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
-2016-04-15 12:57:00,728 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
-2016-04-15 12:57:00,728 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 12:57:00,728 INFO  [Log] X 
-2016-04-15 12:57:00,728 INFO  [Log] X 
-2016-04-15 12:57:00,728 INFO  [Log] X 
-2016-04-15 12:57:00,728 INFO  [Log] X 
-2016-04-15 12:57:00,729 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 12:57:00,729 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:58:10,683 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:58:10,683 INFO  [Log] **************************************************************************************** 
-2016-04-15 12:58:10,683 INFO  [Log] Opening Browser 
-2016-04-15 12:58:31,670 INFO  [Log] Navigating to URL 
-2016-04-15 12:58:36,837 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 12:58:40,112 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 12:58:40,902 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 12:58:41,626 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 12:58:42,258 INFO  [Log] Wait for 5 seconds 
-2016-04-15 12:58:47,356 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 12:58:48,044 INFO  [Log] Closing the browser 
-2016-04-15 12:58:49,171 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 12:58:49,171 INFO  [Log] X 
-2016-04-15 12:58:49,171 INFO  [Log] X 
-2016-04-15 12:58:49,171 INFO  [Log] X 
-2016-04-15 12:58:49,171 INFO  [Log] X 
-2016-04-15 12:58:49,171 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 12:58:49,171 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 13:07:38,465 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:07:38,466 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:07:38,466 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 13:07:38,466 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:07:38,466 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:08:25,211 INFO  [Log] Opening Browser 
-2016-04-15 13:09:14,352 INFO  [Log] Navigating to URL 
-2016-04-15 13:09:37,213 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 13:09:56,701 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 13:10:05,093 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 13:10:16,050 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 13:10:24,004 INFO  [Log] Wait for 5 seconds 
-2016-04-15 13:10:53,408 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 13:11:15,015 INFO  [Log] Closing the browser 
-2016-04-15 13:12:33,522 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 13:12:33,522 INFO  [Log] X 
-2016-04-15 13:12:33,523 INFO  [Log] X 
-2016-04-15 13:12:33,523 INFO  [Log] X 
-2016-04-15 13:12:33,523 INFO  [Log] X 
-2016-04-15 13:13:14,843 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 13:13:16,423 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:13:16,424 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:13:16,424 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 13:13:16,424 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:13:16,424 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:13:38,720 INFO  [Log] Opening Browser 
-2016-04-15 13:14:11,785 INFO  [Log] Navigating to URL 
-2016-04-15 13:14:19,979 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 13:14:23,986 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 13:14:33,386 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 13:14:35,368 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 13:14:48,456 INFO  [Log] Wait for 5 seconds 
-2016-04-15 13:15:01,887 INFO  [Log] Verifying Text 
-2016-04-15 13:15:11,348 INFO  [Log] Closing the browser 
-2016-04-15 13:15:21,939 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 13:15:21,939 INFO  [Log] X 
-2016-04-15 13:15:21,939 INFO  [Log] X 
-2016-04-15 13:15:21,939 INFO  [Log] X 
-2016-04-15 13:15:21,939 INFO  [Log] X 
-2016-04-15 13:15:31,308 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 13:16:03,810 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 13:17:36,008 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:17:36,009 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:17:36,009 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 13:17:36,009 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:17:36,009 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:17:36,010 INFO  [Log] Opening Browser 
-2016-04-15 13:17:57,638 INFO  [Log] Navigating to URL 
-2016-04-15 13:18:03,364 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 13:18:06,195 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 13:18:06,842 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 13:18:07,544 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 13:18:08,184 INFO  [Log] Wait for 5 seconds 
-2016-04-15 13:18:13,238 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 13:18:13,926 INFO  [Log] Closing the browser 
-2016-04-15 13:18:14,984 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 13:18:14,984 INFO  [Log] X 
-2016-04-15 13:18:14,984 INFO  [Log] X 
-2016-04-15 13:18:14,984 INFO  [Log] X 
-2016-04-15 13:18:14,984 INFO  [Log] X 
-2016-04-15 13:19:12,487 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:12,488 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:12,488 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 13:19:12,488 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:12,488 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:12,489 INFO  [Log] Opening Browser 
-2016-04-15 13:19:30,446 INFO  [Log] Navigating to URL 
-2016-04-15 13:19:37,049 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 13:19:39,454 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 13:19:40,070 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 13:19:40,673 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 13:19:41,276 INFO  [Log] Wait for 5 seconds 
-2016-04-15 13:19:46,335 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-15 13:19:46,993 INFO  [Log] Closing the browser 
-2016-04-15 13:19:48,107 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 13:19:48,107 INFO  [Log] X 
-2016-04-15 13:19:48,107 INFO  [Log] X 
-2016-04-15 13:19:48,107 INFO  [Log] X 
-2016-04-15 13:19:48,107 INFO  [Log] X 
-2016-04-15 13:19:48,108 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:48,108 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:48,108 INFO  [Log] **************************************************************************************** 
-2016-04-15 13:19:48,108 INFO  [Log] Opening Browser 
-2016-04-15 13:20:03,576 INFO  [Log] Navigating to URL 
-2016-04-15 13:20:09,912 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-15 13:20:13,102 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-15 13:20:13,976 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-15 13:20:14,615 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-15 13:20:15,272 INFO  [Log] Wait for 5 seconds 
-2016-04-15 13:20:20,335 INFO  [Log] Verifying Text 
-2016-04-15 13:20:20,742 INFO  [Log] Closing the browser 
-2016-04-15 13:20:21,575 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2016-04-15 13:20:21,576 INFO  [Log] X 
-2016-04-15 13:20:21,576 INFO  [Log] X 
-2016-04-15 13:20:21,576 INFO  [Log] X 
-2016-04-15 13:20:21,576 INFO  [Log] X 
-2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:38:34,042 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:38:34,042 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:38:34,401 INFO  [Log] Navigating to URL 
-2016-04-20 13:38:34,401 INFO  [Log] Not able to navigate --- null 
-2016-04-20 13:38:34,448 INFO  [Log] Closing the browser 
-2016-04-20 13:38:34,448 ERROR [Log] Not able to Close the Browser --- null 
-2016-04-20 13:38:34,495 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:38:34,495 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:38:34,495 INFO  [Log] X 
-2016-04-20 13:38:34,495 INFO  [Log] X 
-2016-04-20 13:38:34,495 INFO  [Log] X 
-2016-04-20 13:38:34,495 INFO  [Log] X 
-2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:42:08,942 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:42:08,942 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:42:09,052 INFO  [Log] Navigating to URL 
-2016-04-20 13:42:09,052 INFO  [Log] Not able to navigate --- null 
-2016-04-20 13:42:09,098 INFO  [Log] Closing the browser 
-2016-04-20 13:42:09,098 ERROR [Log] Not able to Close the Browser --- null 
-2016-04-20 13:42:09,161 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:42:09,161 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:42:09,161 INFO  [Log] X 
-2016-04-20 13:42:09,161 INFO  [Log] X 
-2016-04-20 13:42:09,161 INFO  [Log] X 
-2016-04-20 13:42:09,161 INFO  [Log] X 
-2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:44:50,430 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:44:50,430 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:44:50,539 INFO  [Log] Navigating to URL 
-2016-04-20 13:44:50,539 INFO  [Log] Not able to navigate --- null 
-2016-04-20 13:44:50,570 INFO  [Log] Closing the browser 
-2016-04-20 13:44:50,570 ERROR [Log] Not able to Close the Browser --- null 
-2016-04-20 13:44:50,617 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:44:50,617 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:44:50,617 INFO  [Log] X 
-2016-04-20 13:44:50,617 INFO  [Log] X 
-2016-04-20 13:44:50,617 INFO  [Log] X 
-2016-04-20 13:44:50,617 INFO  [Log] X 
-2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:47:03,912 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:47:03,912 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:49:35,719 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:49:35,719 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:52:27,842 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:52:27,842 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:52:57,523 INFO  [Log] Opening Browser 
-2016-04-20 13:53:16,982 INFO  [Log] Navigating to URL 
-2016-04-20 13:53:25,439 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-20 13:53:28,032 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-20 13:53:28,722 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-20 13:53:29,306 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-20 13:53:30,007 INFO  [Log] Wait for 5 seconds 
-2016-04-20 13:53:35,098 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-20 13:53:35,738 INFO  [Log] Closing the browser 
-2016-04-20 13:53:37,433 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:53:37,433 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:53:37,449 INFO  [Log] X 
-2016-04-20 13:53:37,449 INFO  [Log] X 
-2016-04-20 13:53:37,449 INFO  [Log] X 
-2016-04-20 13:53:37,449 INFO  [Log] X 
-2016-04-20 13:54:39,381 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
-2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:54:39,381 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:54:39,381 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:55:05,772 INFO  [Log] Not able to open Browser --- Error communicating with the remote browser. It may have died.
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f5d40335-262b-4696-bdba-de4d26c70882 
-2016-04-20 13:55:05,897 INFO  [Log] Closing the browser 
-2016-04-20 13:55:07,399 ERROR [Log] Not able to Close the Browser --- Error communicating with the remote browser. It may have died.
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f5d40335-262b-4696-bdba-de4d26c70882 
-2016-04-20 13:55:07,462 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 13:55:07,462 INFO  [Log] **************************************************************************************** 
-2016-04-20 13:55:07,462 INFO  [Log] X 
-2016-04-20 13:55:07,462 INFO  [Log] X 
-2016-04-20 13:55:07,462 INFO  [Log] X 
-2016-04-20 13:55:07,462 INFO  [Log] X 
-2016-04-20 14:27:14,563 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:27:14,563 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:27:14,563 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 14:27:14,563 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:27:14,563 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:27:22,367 INFO  [Log] Opening Browser 
-2016-04-20 14:27:38,278 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
-2016-04-20 14:27:38,280 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
-2016-04-20 14:27:38,280 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 14:27:38,280 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:27:38,280 INFO  [Log] X 
-2016-04-20 14:27:38,280 INFO  [Log] X 
-2016-04-20 14:27:38,280 INFO  [Log] X 
-2016-04-20 14:27:38,280 INFO  [Log] X 
-2016-04-20 14:29:18,496 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:29:18,496 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:29:18,496 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 14:29:18,496 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:29:18,496 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:29:18,511 INFO  [Log] Opening Browser 
-2016-04-20 14:29:35,041 INFO  [Log] Navigating to URL 
-2016-04-20 14:29:41,978 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-20 14:29:45,006 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-20 14:29:45,724 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-20 14:29:46,304 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-20 14:29:46,908 INFO  [Log] Wait for 5 seconds 
-2016-04-20 14:29:51,996 INFO  [Log] Clicking on Webelement lnk_ProductCategory 
-2016-04-20 14:29:56,437 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-20 14:29:56,902 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 220 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir22200_4991}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 28f268a343bb973552cdf1bdc68fee2d 
-2016-04-20 14:29:56,903 INFO  [Log] Closing the browser 
-2016-04-20 14:29:58,169 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 14:29:58,169 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:29:58,169 INFO  [Log] X 
-2016-04-20 14:29:58,169 INFO  [Log] X 
-2016-04-20 14:29:58,169 INFO  [Log] X 
-2016-04-20 14:29:58,169 INFO  [Log] X 
-2016-04-20 14:32:37,925 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:32:37,925 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:32:37,925 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 14:32:37,925 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:32:37,925 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:32:37,925 INFO  [Log] Opening Browser 
-2016-04-20 14:32:51,670 INFO  [Log] Navigating to URL 
-2016-04-20 14:32:59,237 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-20 14:33:02,635 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-20 14:33:02,841 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-20 14:33:03,000 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-20 14:33:04,251 INFO  [Log] Wait for 5 seconds 
-2016-04-20 14:33:09,338 INFO  [Log] Clicking on Webelement lnk_ProductCategory 
-2016-04-20 14:33:13,403 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-20 14:33:13,528 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir21584_8217}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: cf4ebcb22bf17527dc93febd64525633 
-2016-04-20 14:33:13,559 INFO  [Log] Closing the browser 
-2016-04-20 14:33:14,791 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 14:33:14,791 INFO  [Log] **************************************************************************************** 
-2016-04-20 14:33:14,791 INFO  [Log] X 
-2016-04-20 14:33:14,791 INFO  [Log] X 
-2016-04-20 14:33:14,791 INFO  [Log] X 
-2016-04-20 14:33:14,791 INFO  [Log] X 
-2016-04-20 15:03:15,503 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:15,503 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:15,503 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 15:03:15,503 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:15,503 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:15,503 INFO  [Log] Opening Browser 
-2016-04-20 15:03:39,528 INFO  [Log] Not able to open Browser --- no such element: Unable to locate element: {"method":"name","selector":"lognsfc"}
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.29 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir21596_854}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 5e811e0890f081ba65b3d7c8a0f48023
-*** Element info: {Using=name, value=lognsfc} 
-2016-04-20 15:03:39,637 INFO  [Log] Closing the browser 
-2016-04-20 15:03:40,935 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 15:03:40,935 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:40,935 INFO  [Log] X 
-2016-04-20 15:03:40,935 INFO  [Log] X 
-2016-04-20 15:03:40,935 INFO  [Log] X 
-2016-04-20 15:03:40,935 INFO  [Log] X 
-2016-04-20 15:03:49,797 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:49,797 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:49,797 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 15:03:49,797 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:49,797 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:03:49,797 INFO  [Log] Opening Browser 
-2016-04-20 15:04:11,248 INFO  [Log] Not able to open Browser --- no such element: Unable to locate element: {"method":"name","selector":"lognsfc"}
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir21616_812}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 017c03f26ab282a272004a203c2ad8d5
-*** Element info: {Using=name, value=lognsfc} 
-2016-04-20 15:04:11,373 INFO  [Log] Closing the browser 
-2016-04-20 15:04:12,647 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-20 15:04:12,647 INFO  [Log] **************************************************************************************** 
-2016-04-20 15:04:12,647 INFO  [Log] X 
-2016-04-20 15:04:12,647 INFO  [Log] X 
-2016-04-20 15:04:12,647 INFO  [Log] X 
-2016-04-20 15:04:12,647 INFO  [Log] X 
-2016-04-25 15:49:05,968 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:49:05,978 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:49:05,978 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 15:49:05,978 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:49:05,978 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:49:05,979 INFO  [Log] Opening Browser 
-2016-04-25 15:49:27,391 INFO  [Log] Navigating to URL 
-2016-04-25 15:49:42,643 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 15:49:47,436 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 15:49:48,006 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 15:49:48,600 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 15:49:50,252 INFO  [Log] Wait for 5 seconds 
-2016-04-25 15:49:55,320 INFO  [Log] Clicking on Webelement lnk_ProductCategory 
-2016-04-25 15:50:01,941 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 15:50:02,448 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 254 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir10992_22213}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 76b34b23251209626e8e314d8971a0ad 
-2016-04-25 15:50:02,491 INFO  [Log] Closing the browser 
-2016-04-25 15:50:04,372 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 15:50:04,372 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:50:04,372 INFO  [Log] X 
-2016-04-25 15:50:04,372 INFO  [Log] X 
-2016-04-25 15:50:04,372 INFO  [Log] X 
-2016-04-25 15:50:04,372 INFO  [Log] X 
-2016-04-25 15:51:52,971 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:51:52,971 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:51:52,972 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 15:51:52,972 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:51:52,972 INFO  [Log] **************************************************************************************** 
-2016-04-25 15:51:52,973 INFO  [Log] Opening Browser 
-2016-04-25 15:52:08,985 INFO  [Log] Navigating to URL 
-2016-04-25 15:52:26,316 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 15:52:31,592 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 15:52:32,187 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 15:52:47,393 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 15:52:49,155 INFO  [Log] Wait for 5 seconds 
-2016-04-25 15:53:16,337 INFO  [Log] Clicking on Webelement lnk_ProductCategory 
-2016-04-25 16:19:46,824 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:19:46,825 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:19:46,825 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 16:19:46,825 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:19:46,825 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:19:46,826 INFO  [Log] Opening Browser 
-2016-04-25 16:20:02,002 INFO  [Log] Navigating to URL 
-2016-04-25 16:20:13,226 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 16:20:18,531 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 16:20:18,727 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 16:20:18,913 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 16:20:20,176 INFO  [Log] Wait for 5 seconds 
-2016-04-25 16:20:25,208 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 16:20:25,404 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 16:20:31,586 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
-2016-04-25 16:20:31,790 INFO  [Log] Clicking on Webelement btn_AddToCart 
-2016-04-25 16:20:33,025 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
-2016-04-25 16:20:39,727 INFO  [Log] Verifying Text for item: txtbx_Qty 
-2016-04-25 16:20:39,852 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 16:20:39,852 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:20:39,852 INFO  [Log] X 
-2016-04-25 16:20:39,852 INFO  [Log] X 
-2016-04-25 16:20:39,852 INFO  [Log] X 
-2016-04-25 16:20:39,852 INFO  [Log] X 
-2016-04-25 16:59:18,109 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:59:18,109 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:59:18,109 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 16:59:18,109 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:59:18,109 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:59:18,110 INFO  [Log] Opening Browser 
-2016-04-25 16:59:34,755 INFO  [Log] Navigating to URL 
-2016-04-25 16:59:44,245 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 16:59:49,649 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 16:59:50,269 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 16:59:50,920 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 16:59:52,613 INFO  [Log] Wait for 5 seconds 
-2016-04-25 16:59:57,676 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 16:59:58,098 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 16:59:58,598 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 272 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir13076_25060}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0cd866ff2c3b6caa9fe3da1309bc43c2 
-2016-04-25 16:59:58,627 INFO  [Log] Closing the browser 
-2016-04-25 16:59:59,759 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 16:59:59,760 INFO  [Log] **************************************************************************************** 
-2016-04-25 16:59:59,760 INFO  [Log] X 
-2016-04-25 16:59:59,760 INFO  [Log] X 
-2016-04-25 16:59:59,760 INFO  [Log] X 
-2016-04-25 16:59:59,760 INFO  [Log] X 
-2016-04-25 17:02:39,880 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:02:39,881 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:02:39,881 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:02:39,881 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:02:39,881 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:02:39,882 INFO  [Log] Opening Browser 
-2016-04-25 17:02:53,479 INFO  [Log] Navigating to URL 
-2016-04-25 17:03:04,746 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:03:09,804 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:03:10,011 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:03:10,196 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:03:11,444 INFO  [Log] Wait for 5 seconds 
-2016-04-25 17:03:16,510 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:03:21,130 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:03:28,164 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
-2016-04-25 17:03:28,285 INFO  [Log] Clicking on Webelement btn_AddToCart 
-2016-04-25 17:03:29,562 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
-2016-04-25 17:03:37,881 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : Cannot get a text value from a numeric cell 
-2016-04-25 17:03:37,881 INFO  [Log] Verifying Text for item: txtbx_Qty 
-2016-04-25 17:03:37,998 INFO  [Log] Closing the browser 
-2016-04-25 17:03:39,137 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:03:39,137 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:03:39,137 INFO  [Log] X 
-2016-04-25 17:03:39,137 INFO  [Log] X 
-2016-04-25 17:03:39,137 INFO  [Log] X 
-2016-04-25 17:03:39,137 INFO  [Log] X 
-2016-04-25 17:09:52,550 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:09:52,551 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:09:52,551 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:09:52,551 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:09:52,551 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:09:52,552 INFO  [Log] Opening Browser 
-2016-04-25 17:10:10,643 INFO  [Log] Navigating to URL 
-2016-04-25 17:10:20,801 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:10:26,799 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:10:27,431 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:10:28,092 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:10:29,815 INFO  [Log] Wait for 5 seconds 
-2016-04-25 17:10:34,879 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:10:35,820 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:10:36,228 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 195 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir6180_22916}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 531a37db4fd302eccb05c5ca5190f7bd 
-2016-04-25 17:10:36,256 INFO  [Log] Closing the browser 
-2016-04-25 17:10:37,442 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:10:37,442 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:10:37,442 INFO  [Log] X 
-2016-04-25 17:10:37,442 INFO  [Log] X 
-2016-04-25 17:10:37,442 INFO  [Log] X 
-2016-04-25 17:10:37,442 INFO  [Log] X 
-2016-04-25 17:11:17,742 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:11:17,743 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:11:17,743 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:11:17,743 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:11:17,743 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:11:17,744 INFO  [Log] Opening Browser 
-2016-04-25 17:11:33,213 INFO  [Log] Navigating to URL 
-2016-04-25 17:11:43,798 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:11:49,239 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:11:50,027 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:11:50,662 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:11:52,417 INFO  [Log] Wait for 5 seconds 
-2016-04-25 17:11:57,490 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:11:58,398 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:11:58,854 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 213 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir8388_8558}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a3bddb60c96b131382c43aeb58808554 
-2016-04-25 17:11:58,882 INFO  [Log] Closing the browser 
-2016-04-25 17:12:00,290 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:12:00,290 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:12:00,290 INFO  [Log] X 
-2016-04-25 17:12:00,290 INFO  [Log] X 
-2016-04-25 17:12:00,290 INFO  [Log] X 
-2016-04-25 17:12:00,290 INFO  [Log] X 
-2016-04-25 17:13:00,444 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:13:00,444 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:13:00,444 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:13:00,444 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:13:00,444 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:13:00,445 INFO  [Log] Opening Browser 
-2016-04-25 17:13:16,550 INFO  [Log] Navigating to URL 
-2016-04-25 17:13:25,874 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:13:30,585 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:13:31,266 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:13:31,996 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:13:33,768 INFO  [Log] Wait for 5 seconds 
-2016-04-25 17:13:38,838 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:13:41,419 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:13:41,868 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 224 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir12064_14453}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 886e1c95d46a09821e60032f238ab28f 
-2016-04-25 17:13:41,895 INFO  [Log] Closing the browser 
-2016-04-25 17:13:43,041 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:13:43,042 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:13:43,042 INFO  [Log] X 
-2016-04-25 17:13:43,042 INFO  [Log] X 
-2016-04-25 17:13:43,042 INFO  [Log] X 
-2016-04-25 17:13:43,042 INFO  [Log] X 
-2016-04-25 17:15:40,941 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:15:40,941 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:15:40,942 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:15:40,942 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:15:40,942 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:15:40,942 INFO  [Log] Opening Browser 
-2016-04-25 17:15:56,525 INFO  [Log] Navigating to URL 
-2016-04-25 17:16:06,427 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:16:11,584 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:16:12,353 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:16:13,001 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:16:14,785 INFO  [Log] Wait for 8 seconds 
-2016-04-25 17:16:22,849 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:16:24,294 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:16:24,743 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 187 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir11772_14524}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1d027cc60195d82b17792410631d81cc 
-2016-04-25 17:16:24,771 INFO  [Log] Closing the browser 
-2016-04-25 17:16:26,048 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:16:26,048 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:16:26,048 INFO  [Log] X 
-2016-04-25 17:16:26,048 INFO  [Log] X 
-2016-04-25 17:16:26,048 INFO  [Log] X 
-2016-04-25 17:16:26,048 INFO  [Log] X 
-2016-04-25 17:17:25,560 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:17:25,560 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:17:25,560 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:17:25,561 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:17:25,561 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:17:25,562 INFO  [Log] Opening Browser 
-2016-04-25 17:17:41,429 INFO  [Log] Navigating to URL 
-2016-04-25 17:17:51,529 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:17:57,486 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:17:58,122 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:17:58,743 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:18:00,392 INFO  [Log] Wait for 8 seconds 
-2016-04-25 17:18:08,466 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:18:15,196 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:18:15,658 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 209 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir11792_10898}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1ebdf3404dbb5b48d650064babf5ebd6 
-2016-04-25 17:18:15,686 INFO  [Log] Closing the browser 
-2016-04-25 17:18:16,814 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:18:16,814 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:18:16,814 INFO  [Log] X 
-2016-04-25 17:18:16,814 INFO  [Log] X 
-2016-04-25 17:18:16,814 INFO  [Log] X 
-2016-04-25 17:18:16,814 INFO  [Log] X 
-2016-04-25 17:20:16,303 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:20:16,303 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:20:16,303 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:20:16,304 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:20:16,304 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:20:16,304 INFO  [Log] Opening Browser 
-2016-04-25 17:20:32,329 INFO  [Log] Navigating to URL 
-2016-04-25 17:20:48,548 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-25 17:20:53,735 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-25 17:20:54,425 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-25 17:20:55,087 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-25 17:20:56,720 INFO  [Log] Wait for 5 seconds 
-2016-04-25 17:21:01,788 INFO  [Log] MouseHover element: lnk_ProductCategory 
-2016-04-25 17:21:08,387 INFO  [Log] Clicking on Webelement lnk_iPhones 
-2016-04-25 17:21:08,836 ERROR [Log] Not able to click --- element not visible
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 188 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir12556_3602}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2067e2d93f49c3692efd6321234b0972 
-2016-04-25 17:21:08,862 INFO  [Log] Closing the browser 
-2016-04-25 17:21:09,936 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-25 17:21:09,936 INFO  [Log] **************************************************************************************** 
-2016-04-25 17:21:09,936 INFO  [Log] X 
-2016-04-25 17:21:09,936 INFO  [Log] X 
-2016-04-25 17:21:09,936 INFO  [Log] X 
-2016-04-25 17:21:09,936 INFO  [Log] X 
-2016-04-26 10:39:37,334 INFO  [Log] **************************************************************************************** 
-2016-04-26 10:39:37,335 INFO  [Log] **************************************************************************************** 
-2016-04-26 10:39:37,335 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 10:39:37,335 INFO  [Log] **************************************************************************************** 
-2016-04-26 10:39:37,335 INFO  [Log] **************************************************************************************** 
-2016-04-26 10:39:37,336 INFO  [Log] Opening Browser 
-2016-04-26 10:39:58,617 INFO  [Log] Navigating to URL 
-2016-04-26 10:40:10,666 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 10:40:15,588 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-26 10:40:16,062 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-26 10:40:16,764 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-26 10:40:18,458 INFO  [Log] Wait for 5 seconds 
-2016-04-26 10:40:23,519 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-26 10:40:25,187 INFO  [Log] Closing the browser 
-2016-04-26 10:40:28,221 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 10:40:28,221 INFO  [Log] **************************************************************************************** 
-2016-04-26 10:40:28,221 INFO  [Log] X 
-2016-04-26 10:40:28,221 INFO  [Log] X 
-2016-04-26 10:40:28,221 INFO  [Log] X 
-2016-04-26 10:40:28,221 INFO  [Log] X 
-2016-04-26 11:04:25,829 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:04:25,830 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:04:25,830 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:04:25,830 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:04:25,830 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:04:25,831 INFO  [Log] Opening Browser 
-2016-04-26 11:04:47,820 INFO  [Log] Not able to open Browser --- no such element: Unable to locate element: {"method":"name","selector":"lognsfc"}
-  (Session info: chrome=49.0.2623.112)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.20 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir14104_25106}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.112, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7f756ace2833620254e82c507c37ce59
-*** Element info: {Using=name, value=lognsfc} 
-2016-04-26 11:04:47,931 INFO  [Log] Closing the browser 
-2016-04-26 11:04:49,013 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:04:49,013 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:04:49,013 INFO  [Log] X 
-2016-04-26 11:04:49,013 INFO  [Log] X 
-2016-04-26 11:04:49,013 INFO  [Log] X 
-2016-04-26 11:04:49,013 INFO  [Log] X 
-2016-04-26 11:18:51,027 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:18:51,047 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:18:51,048 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:18:51,048 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:18:51,048 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:18:51,049 INFO  [Log] Opening Browser 
-2016-04-26 11:19:20,312 INFO  [Log] Navigating to URL 
-2016-04-26 11:19:31,739 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 11:19:37,605 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-26 11:19:38,232 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-26 11:19:38,860 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-26 11:19:40,602 INFO  [Log] Wait for 5 seconds 
-2016-04-26 11:19:45,679 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-26 11:19:47,430 INFO  [Log] Closing the browser 
-2016-04-26 11:19:49,039 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:19:49,039 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:19:49,039 INFO  [Log] X 
-2016-04-26 11:19:49,039 INFO  [Log] X 
-2016-04-26 11:19:49,039 INFO  [Log] X 
-2016-04-26 11:19:49,039 INFO  [Log] X 
-2016-04-26 11:19:49,040 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:19:49,040 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:19:49,040 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:19:49,040 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:19:49,040 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:20:16,569 INFO  [Log] Navigating to URL 
-2016-04-26 11:20:22,422 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 11:20:32,947 ERROR [Log] Not able to click --- Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
-Command duration or timeout: 10.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: febfe448-6ff1-4ac0-ab43-50382bb412b1
-*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
-2016-04-26 11:20:32,994 INFO  [Log] Closing the browser 
-2016-04-26 11:20:33,694 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:20:33,694 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:20:33,694 INFO  [Log] X 
-2016-04-26 11:20:33,694 INFO  [Log] X 
-2016-04-26 11:20:33,694 INFO  [Log] X 
-2016-04-26 11:20:33,694 INFO  [Log] X 
-2016-04-26 11:44:41,829 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:44:41,829 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:44:41,829 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:44:41,830 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:44:41,830 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:44:41,832 INFO  [Log] Opening Browser 
-2016-04-26 11:45:00,325 INFO  [Log] Navigating to URL 
-2016-04-26 11:45:10,144 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 11:45:15,645 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-26 11:45:16,361 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-26 11:45:16,915 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-26 11:45:18,615 INFO  [Log] Wait for 5 seconds 
-2016-04-26 11:45:23,698 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-26 11:45:26,549 INFO  [Log] Closing the browser 
-2016-04-26 11:45:27,831 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:45:27,831 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:45:27,831 INFO  [Log] X 
-2016-04-26 11:45:27,831 INFO  [Log] X 
-2016-04-26 11:45:27,831 INFO  [Log] X 
-2016-04-26 11:45:27,831 INFO  [Log] X 
-2016-04-26 11:45:27,831 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:45:27,831 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:45:27,831 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:45:27,831 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:45:27,831 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:45:56,546 INFO  [Log] Navigating to URL 
-2016-04-26 11:46:02,436 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 11:46:12,566 ERROR [Log] Not able to click --- Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
-Command duration or timeout: 10.11 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bca81c5a-722a-4892-99b0-e353128f59d7
-*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
-2016-04-26 11:46:12,611 INFO  [Log] Closing the browser 
-2016-04-26 11:46:13,060 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 11:46:13,060 INFO  [Log] **************************************************************************************** 
-2016-04-26 11:46:13,060 INFO  [Log] X 
-2016-04-26 11:46:13,060 INFO  [Log] X 
-2016-04-26 11:46:13,060 INFO  [Log] X 
-2016-04-26 11:46:13,060 INFO  [Log] X 
-2016-04-26 13:57:10,377 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:10,378 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:10,378 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 13:57:10,378 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:10,378 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:10,392 INFO  [Log] Opening Browser 
-2016-04-26 13:57:30,256 INFO  [Log] Navigating to URL 
-2016-04-26 13:57:39,848 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 13:57:45,319 INFO  [Log] Entering the text in: txtbx_UserName 
-2016-04-26 13:57:45,960 INFO  [Log] Entering the text in: txtbx_Password 
-2016-04-26 13:57:46,606 INFO  [Log] Clicking on Webelement btn_Login 
-2016-04-26 13:57:47,870 INFO  [Log] Wait for 5 seconds 
-2016-04-26 13:57:52,975 INFO  [Log] Clicking on Webelement btn_Logout 
-2016-04-26 13:57:54,232 INFO  [Log] Closing the browser 
-2016-04-26 13:57:55,896 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 13:57:55,896 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:55,896 INFO  [Log] X 
-2016-04-26 13:57:55,896 INFO  [Log] X 
-2016-04-26 13:57:55,896 INFO  [Log] X 
-2016-04-26 13:57:55,896 INFO  [Log] X 
-2016-04-26 13:57:55,897 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:55,897 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:55,897 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 13:57:55,897 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:57:55,897 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:58:21,513 INFO  [Log] Navigating to URL 
-2016-04-26 13:58:27,354 INFO  [Log] Clicking on Webelement btn_MyAccount 
-2016-04-26 13:58:37,538 ERROR [Log] Not able to click --- Unable to locate element: {"method":"xpath","selector":".//*[@id='account']/a"}
-Command duration or timeout: 10.10 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 44e97900-b911-4b48-8710-dee65870eb2e
-*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
-2016-04-26 13:58:37,603 INFO  [Log] Closing the browser 
-2016-04-26 13:58:37,961 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
-2016-04-26 13:58:37,961 INFO  [Log] **************************************************************************************** 
-2016-04-26 13:58:37,962 INFO  [Log] X 
-2016-04-26 13:58:37,962 INFO  [Log] X 
-2016-04-26 13:58:37,962 INFO  [Log] X 
-2016-04-26 13:58:37,962 INFO  [Log] X 
+2016-04-28 16:07:24,734 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:07:24,735 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:07:24,735 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:07:24,735 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:07:24,735 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:07:24,738 INFO  [Log] Opening Browser 
+2016-04-28 16:07:39,981 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 16:07:39,985 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 16:07:39,986 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:07:39,986 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:07:39,986 INFO  [Log] X 
+2016-04-28 16:07:39,986 INFO  [Log] X 
+2016-04-28 16:07:39,986 INFO  [Log] X 
+2016-04-28 16:07:39,986 INFO  [Log] X 
+2016-04-28 16:09:20,795 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:09:20,795 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:09:20,795 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:09:20,795 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:09:20,795 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:09:20,795 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:09:20,798 INFO  [Log] Opening Browser 
+2016-04-28 16:09:36,073 INFO  [Log] Navigating to URL 
+2016-04-28 16:09:46,395 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 16:09:52,215 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 16:09:52,854 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 16:09:53,509 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 16:09:56,188 INFO  [Log] Wait for 5 seconds 
+2016-04-28 16:10:01,238 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 16:10:06,781 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 16:10:07,218 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 16:10:09,902 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 16:10:16,426 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:10:16,757 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-28 16:10:17,642 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:10:17,642 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:10:17,642 INFO  [Log] X 
+2016-04-28 16:10:17,642 INFO  [Log] X 
+2016-04-28 16:10:17,642 INFO  [Log] X 
+2016-04-28 16:10:17,642 INFO  [Log] X 
+2016-04-28 16:31:18,444 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:31:18,444 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:31:18,444 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:31:18,445 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:31:18,445 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:31:18,445 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:31:18,448 INFO  [Log] Opening Browser 
+2016-04-28 16:31:33,927 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 16:31:33,929 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 16:31:33,929 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:31:33,929 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:31:33,929 INFO  [Log] X 
+2016-04-28 16:31:33,929 INFO  [Log] X 
+2016-04-28 16:31:33,929 INFO  [Log] X 
+2016-04-28 16:31:33,929 INFO  [Log] X 
+2016-04-28 16:32:11,800 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:32:11,801 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:32:11,801 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:32:11,801 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:32:11,801 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:32:11,801 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:32:11,804 INFO  [Log] Opening Browser 
+2016-04-28 16:32:27,406 INFO  [Log] Navigating to URL 
+2016-04-28 16:32:36,244 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 16:32:42,743 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 16:32:43,385 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 16:32:44,005 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 16:32:46,691 INFO  [Log] Wait for 5 seconds 
+2016-04-28 16:32:51,762 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 16:32:57,503 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 16:32:57,977 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 16:33:00,646 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 16:33:07,316 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:38:19,385 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:38:19,386 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:38:19,386 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:38:19,386 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:38:19,386 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:38:19,386 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:38:19,389 INFO  [Log] Opening Browser 
+2016-04-28 16:38:36,846 INFO  [Log] Navigating to URL 
+2016-04-28 16:38:47,121 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 16:38:53,740 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 16:38:54,613 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 16:38:55,229 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 16:38:57,854 INFO  [Log] Wait for 5 seconds 
+2016-04-28 16:39:02,895 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 16:39:08,444 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 16:39:14,019 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 16:39:16,412 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 16:39:22,610 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:39:56,105 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:39:56,105 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:39:56,105 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:39:56,105 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:39:56,106 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:39:56,106 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:39:56,109 INFO  [Log] Opening Browser 
+2016-04-28 16:40:13,247 INFO  [Log] Navigating to URL 
+2016-04-28 16:40:21,679 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 16:40:28,179 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 16:40:28,852 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 16:40:29,493 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 16:40:32,201 INFO  [Log] Wait for 5 seconds 
+2016-04-28 16:40:37,252 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 16:40:43,353 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 16:40:43,856 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 16:40:46,582 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 16:40:53,270 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:52:40,075 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:52:40,075 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:52:40,076 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:52:40,076 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:52:40,076 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:52:40,076 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:52:40,079 INFO  [Log] Opening Browser 
+2016-04-28 16:52:55,147 INFO  [Log] Navigating to URL 
+2016-04-28 16:53:07,738 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 16:53:13,343 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 16:53:13,856 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 16:53:14,196 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 16:53:16,474 INFO  [Log] Wait for 5 seconds 
+2016-04-28 16:53:21,513 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 16:53:26,337 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 16:53:32,326 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 16:53:34,577 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 16:53:40,505 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:54:02,188 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:55:09,197 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 16:55:09,198 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:55:09,198 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:55:09,198 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:55:09,198 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:55:09,198 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:55:09,200 INFO  [Log] Opening Browser 
+2016-04-28 16:55:25,749 INFO  [Log] Navigating to URL 
+2016-04-28 16:55:35,801 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 16:55:41,469 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 16:55:42,063 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 16:55:42,742 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 16:55:45,479 INFO  [Log] Wait for 5 seconds 
+2016-04-28 16:55:50,507 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 16:55:56,544 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 16:55:56,946 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 16:55:59,638 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 16:56:06,209 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 16:56:06,616 INFO  [Log] Closing the browser 
+2016-04-28 16:56:08,667 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 16:56:08,667 INFO  [Log] **************************************************************************************** 
+2016-04-28 16:56:08,667 INFO  [Log] X 
+2016-04-28 16:56:08,667 INFO  [Log] X 
+2016-04-28 16:56:08,667 INFO  [Log] X 
+2016-04-28 16:56:08,667 INFO  [Log] X 
+2016-04-28 17:00:56,123 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 17:00:56,123 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:00:56,123 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:00:56,123 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 17:00:56,124 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:00:56,124 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:00:56,127 INFO  [Log] Opening Browser 
+2016-04-28 17:01:16,262 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 17:01:16,264 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 17:01:16,264 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 17:01:16,264 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:01:16,264 INFO  [Log] X 
+2016-04-28 17:01:16,264 INFO  [Log] X 
+2016-04-28 17:01:16,264 INFO  [Log] X 
+2016-04-28 17:01:16,264 INFO  [Log] X 
+2016-04-28 17:02:09,615 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 17:02:09,616 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:02:09,616 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:02:09,616 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 17:02:09,616 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:02:09,616 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:02:09,618 INFO  [Log] Opening Browser 
+2016-04-28 17:02:25,192 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 17:02:25,198 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-04-28 17:02:25,198 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 17:02:25,198 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:02:25,198 INFO  [Log] X 
+2016-04-28 17:02:25,198 INFO  [Log] X 
+2016-04-28 17:02:25,198 INFO  [Log] X 
+2016-04-28 17:02:25,199 INFO  [Log] X 
+2016-04-28 17:03:00,203 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-28 17:03:00,204 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:03:00,204 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:03:00,204 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 17:03:00,204 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:03:00,204 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:03:00,207 INFO  [Log] Opening Browser 
+2016-04-28 17:03:15,607 INFO  [Log] Navigating to URL 
+2016-04-28 17:03:24,483 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-28 17:03:30,250 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-28 17:03:30,855 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-28 17:03:31,575 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-28 17:03:34,331 INFO  [Log] Wait for 5 seconds 
+2016-04-28 17:03:39,360 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-28 17:03:45,716 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-28 17:03:46,105 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-28 17:03:48,835 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-28 17:03:55,580 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-28 17:03:55,957 INFO  [Log] Closing the browser 
+2016-04-28 17:03:57,017 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-28 17:03:57,017 INFO  [Log] **************************************************************************************** 
+2016-04-28 17:03:57,017 INFO  [Log] X 
+2016-04-28 17:03:57,017 INFO  [Log] X 
+2016-04-28 17:03:57,017 INFO  [Log] X 
+2016-04-28 17:03:57,017 INFO  [Log] X 
+2016-04-29 13:12:55,280 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 13:12:55,303 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:12:55,303 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:12:55,303 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:12:55,303 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:12:55,303 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:12:55,307 INFO  [Log] Opening Browser 
+2016-04-29 13:13:15,489 INFO  [Log] Navigating to URL 
+2016-04-29 13:13:24,391 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 13:13:30,588 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 13:13:31,367 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 13:13:31,998 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 13:13:34,719 INFO  [Log] Wait for 5 seconds 
+2016-04-29 13:13:39,784 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 13:13:44,784 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 13:13:50,243 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 13:13:52,918 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 13:13:59,408 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 13:13:59,739 INFO  [Log] Closing the browser 
+2016-04-29 13:14:00,927 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:14:00,927 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:14:00,927 INFO  [Log] X 
+2016-04-29 13:14:00,927 INFO  [Log] X 
+2016-04-29 13:14:00,927 INFO  [Log] X 
+2016-04-29 13:14:00,927 INFO  [Log] X 
+2016-04-29 13:26:42,782 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 13:26:42,782 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:26:42,783 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:26:42,783 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:26:42,783 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:26:42,783 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:26:42,786 INFO  [Log] Opening Browser 
+2016-04-29 13:26:58,474 INFO  [Log] Navigating to URL 
+2016-04-29 13:27:10,593 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 13:27:16,447 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 13:27:17,170 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 13:27:17,868 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 13:27:20,508 INFO  [Log] Wait for 5 seconds 
+2016-04-29 13:27:25,573 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 13:27:31,338 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 13:27:37,157 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 13:27:39,903 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 13:27:46,376 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 13:27:46,509 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 13:28:18,312 INFO  [Log] Closing the browser 
+2016-04-29 13:28:19,450 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:28:19,450 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:28:19,450 INFO  [Log] X 
+2016-04-29 13:28:19,450 INFO  [Log] X 
+2016-04-29 13:28:19,450 INFO  [Log] X 
+2016-04-29 13:28:19,450 INFO  [Log] X 
+2016-04-29 13:33:04,322 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 13:33:04,323 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:33:04,323 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:33:04,323 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:33:04,323 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:33:04,323 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:33:04,326 INFO  [Log] Opening Browser 
+2016-04-29 13:33:20,002 INFO  [Log] Navigating to URL 
+2016-04-29 13:33:32,328 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 13:33:39,598 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 13:33:40,152 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 13:33:40,750 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 13:33:43,386 INFO  [Log] Wait for 5 seconds 
+2016-04-29 13:33:48,444 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 13:33:54,504 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 13:33:54,905 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 13:33:57,607 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 13:34:04,420 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 13:34:04,638 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 13:54:41,270 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 13:54:41,271 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:54:41,271 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:54:41,271 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:54:41,271 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:54:41,271 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:54:41,274 INFO  [Log] Opening Browser 
+2016-04-29 13:54:57,546 INFO  [Log] Navigating to URL 
+2016-04-29 13:55:11,448 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 13:55:18,541 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 13:55:19,148 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 13:55:19,822 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 13:55:22,759 INFO  [Log] Wait for 5 seconds 
+2016-04-29 13:55:27,818 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 13:55:32,524 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 13:55:36,617 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 13:55:38,884 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 13:55:46,786 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 13:55:46,886 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 13:55:47,439 INFO  [Log] Closing the browser 
+2016-04-29 13:55:48,641 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 13:55:48,641 INFO  [Log] **************************************************************************************** 
+2016-04-29 13:55:48,641 INFO  [Log] X 
+2016-04-29 13:55:48,641 INFO  [Log] X 
+2016-04-29 13:55:48,641 INFO  [Log] X 
+2016-04-29 13:55:48,641 INFO  [Log] X 
+2016-04-29 14:02:13,095 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:02:13,095 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:02:13,096 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:02:13,096 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:02:13,096 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:02:13,096 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:02:13,098 INFO  [Log] Opening Browser 
+2016-04-29 14:02:29,771 INFO  [Log] Navigating to URL 
+2016-04-29 14:02:42,547 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:02:48,533 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:02:49,093 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:02:49,723 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:02:52,413 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:02:57,476 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:03:03,322 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:03:03,791 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:03:06,501 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:03:13,836 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:03:14,162 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 14:03:15,137 INFO  [Log] Closing the browser 
+2016-04-29 14:03:16,374 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:03:16,374 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:03:16,374 INFO  [Log] X 
+2016-04-29 14:03:16,374 INFO  [Log] X 
+2016-04-29 14:03:16,374 INFO  [Log] X 
+2016-04-29 14:03:16,374 INFO  [Log] X 
+2016-04-29 14:04:37,482 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:04:37,482 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:04:37,482 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:04:37,482 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:04:37,482 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:04:37,482 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:04:37,485 INFO  [Log] Opening Browser 
+2016-04-29 14:04:53,357 INFO  [Log] Navigating to URL 
+2016-04-29 14:05:06,833 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:05:12,605 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:05:13,171 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:05:13,797 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:05:16,500 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:05:21,562 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:05:30,988 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:05:31,386 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:05:34,034 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:05:42,829 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:05:43,270 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 14:05:44,169 INFO  [Log] Closing the browser 
+2016-04-29 14:05:46,249 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:05:46,249 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:05:46,249 INFO  [Log] X 
+2016-04-29 14:05:46,249 INFO  [Log] X 
+2016-04-29 14:05:46,249 INFO  [Log] X 
+2016-04-29 14:05:46,249 INFO  [Log] X 
+2016-04-29 14:10:04,401 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:10:04,402 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:10:04,402 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:10:04,402 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:10:04,402 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:10:04,402 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:10:04,405 INFO  [Log] Opening Browser 
+2016-04-29 14:10:19,909 INFO  [Log] Navigating to URL 
+2016-04-29 14:10:32,485 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:10:38,488 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:10:39,171 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:10:39,559 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:10:41,825 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:10:46,877 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:10:52,572 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:10:52,680 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:10:54,947 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:11:01,883 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:11:02,003 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:11:02,003 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:11:02,003 INFO  [Log] X 
+2016-04-29 14:11:02,003 INFO  [Log] X 
+2016-04-29 14:11:02,003 INFO  [Log] X 
+2016-04-29 14:11:02,003 INFO  [Log] X 
+2016-04-29 14:15:16,951 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:15:16,951 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:15:16,951 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:15:16,951 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:15:16,951 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:15:16,951 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:15:16,954 INFO  [Log] Opening Browser 
+2016-04-29 14:15:32,429 INFO  [Log] Navigating to URL 
+2016-04-29 14:15:44,607 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:15:50,230 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:15:50,884 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:15:51,586 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:15:54,342 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:15:59,410 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:16:05,929 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:16:06,315 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:16:09,076 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:16:15,801 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:16:16,143 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 14:16:16,529 INFO  [Log] Stored Text for object lbl_SubTotalis: $270.00 
+2016-04-29 14:16:16,554 INFO  [Log] Closing the browser 
+2016-04-29 14:16:17,946 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:16:17,946 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:16:17,946 INFO  [Log] X 
+2016-04-29 14:16:17,946 INFO  [Log] X 
+2016-04-29 14:16:17,946 INFO  [Log] X 
+2016-04-29 14:16:17,946 INFO  [Log] X 
+2016-04-29 14:16:52,071 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:16:52,072 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:16:52,072 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:16:52,072 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:16:52,072 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:16:52,072 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:16:52,074 INFO  [Log] Opening Browser 
+2016-04-29 14:17:08,089 INFO  [Log] Navigating to URL 
+2016-04-29 14:17:20,347 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:17:27,538 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:17:28,225 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:17:28,830 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:17:31,507 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:17:36,574 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:17:42,845 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:17:43,317 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:17:46,089 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:17:52,627 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:17:52,976 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:17:52,976 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:17:52,976 INFO  [Log] X 
+2016-04-29 14:17:52,976 INFO  [Log] X 
+2016-04-29 14:17:52,977 INFO  [Log] X 
+2016-04-29 14:17:52,977 INFO  [Log] X 
+2016-04-29 14:29:21,834 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:29:21,835 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:29:21,835 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:29:21,835 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:29:21,835 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:29:21,835 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:29:21,838 INFO  [Log] Opening Browser 
+2016-04-29 14:29:37,873 INFO  [Log] Navigating to URL 
+2016-04-29 14:29:52,582 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:30:00,005 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:30:00,692 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:30:01,411 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:30:04,174 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:30:09,240 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:30:15,162 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:30:15,583 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:30:18,305 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:30:25,629 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:30:26,458 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:30:26,458 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:30:26,458 INFO  [Log] X 
+2016-04-29 14:30:26,458 INFO  [Log] X 
+2016-04-29 14:30:26,458 INFO  [Log] X 
+2016-04-29 14:30:26,458 INFO  [Log] X 
+2016-04-29 14:30:26,458 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 14:30:27,313 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:30:27,313 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:30:27,313 INFO  [Log] X 
+2016-04-29 14:30:27,313 INFO  [Log] X 
+2016-04-29 14:30:27,313 INFO  [Log] X 
+2016-04-29 14:30:27,313 INFO  [Log] X 
+2016-04-29 14:30:27,314 INFO  [Log] Closing the browser 
+2016-04-29 14:30:30,111 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:30:30,111 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:30:30,111 INFO  [Log] X 
+2016-04-29 14:30:30,111 INFO  [Log] X 
+2016-04-29 14:30:30,111 INFO  [Log] X 
+2016-04-29 14:30:30,111 INFO  [Log] X 
+2016-04-29 14:36:25,256 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:36:25,257 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:36:25,257 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:36:25,257 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:36:25,257 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:36:25,257 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:36:25,260 INFO  [Log] Opening Browser 
+2016-04-29 14:36:40,763 INFO  [Log] Navigating to URL 
+2016-04-29 14:36:54,230 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:37:00,471 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:37:01,630 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:37:02,284 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:37:04,930 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:37:09,993 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:37:16,359 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:37:16,754 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:37:19,403 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:37:26,526 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:37:27,340 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 14:37:28,196 INFO  [Log] Closing the browser 
+2016-04-29 14:37:29,271 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:37:29,271 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:37:29,271 INFO  [Log] X 
+2016-04-29 14:37:29,271 INFO  [Log] X 
+2016-04-29 14:37:29,271 INFO  [Log] X 
+2016-04-29 14:37:29,271 INFO  [Log] X 
+2016-04-29 14:43:57,172 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:43:57,173 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:43:57,173 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:43:57,173 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:43:57,173 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:43:57,176 INFO  [Log] Opening Browser 
+2016-04-29 14:44:14,333 INFO  [Log] Navigating to URL 
+2016-04-29 14:44:35,783 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:44:42,462 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:44:43,094 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:44:43,726 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:44:46,036 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:44:51,095 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-29 14:44:53,411 INFO  [Log] Closing the browser 
+2016-04-29 14:44:54,489 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:44:54,489 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:44:54,489 INFO  [Log] X 
+2016-04-29 14:44:54,489 INFO  [Log] X 
+2016-04-29 14:44:54,489 INFO  [Log] X 
+2016-04-29 14:44:54,489 INFO  [Log] X 
+2016-04-29 14:44:54,639 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:44:54,639 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:44:54,639 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:44:54,640 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:44:54,640 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:44:54,640 INFO  [Log] Opening Browser 
+2016-04-29 14:45:09,902 INFO  [Log] Navigating to URL 
+2016-04-29 14:45:25,335 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:45:31,197 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:45:31,817 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:45:32,645 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:45:35,336 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:51:46,700 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:51:46,700 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:51:46,700 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:51:46,700 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:51:46,700 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:51:46,703 INFO  [Log] Opening Browser 
+2016-04-29 14:52:02,748 INFO  [Log] Navigating to URL 
+2016-04-29 14:52:13,535 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:52:20,170 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:52:20,861 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:52:21,458 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:52:24,256 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:52:29,319 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-29 14:52:32,298 INFO  [Log] Closing the browser 
+2016-04-29 14:52:33,476 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:52:33,476 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:52:33,476 INFO  [Log] X 
+2016-04-29 14:52:33,476 INFO  [Log] X 
+2016-04-29 14:52:33,476 INFO  [Log] X 
+2016-04-29 14:52:33,476 INFO  [Log] X 
+2016-04-29 14:52:33,633 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:52:33,633 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:52:33,633 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:52:33,633 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:52:33,633 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:52:33,633 INFO  [Log] Opening Browser 
+2016-04-29 14:52:49,170 INFO  [Log] Navigating to URL 
+2016-04-29 14:53:09,444 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:53:16,163 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:53:16,870 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:53:17,643 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:53:20,299 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:53:25,361 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-04-29 14:53:26,139 INFO  [Log] Closing the browser 
+2016-04-29 14:53:27,078 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:53:27,078 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:53:27,078 INFO  [Log] X 
+2016-04-29 14:53:27,078 INFO  [Log] X 
+2016-04-29 14:53:27,078 INFO  [Log] X 
+2016-04-29 14:53:27,078 INFO  [Log] X 
+2016-04-29 14:53:27,107 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 14:53:27,107 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:53:27,107 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:53:27,107 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:53:27,107 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:53:27,107 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:53:27,107 INFO  [Log] Opening Browser 
+2016-04-29 14:53:42,322 INFO  [Log] Navigating to URL 
+2016-04-29 14:53:54,130 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 14:54:00,540 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 14:54:01,216 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 14:54:01,837 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 14:54:04,482 INFO  [Log] Wait for 5 seconds 
+2016-04-29 14:54:09,511 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 14:54:15,660 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 14:54:16,085 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 14:54:18,771 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 14:54:25,528 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 14:54:26,336 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 14:54:27,087 INFO  [Log] Closing the browser 
+2016-04-29 14:54:28,086 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 14:54:28,086 INFO  [Log] **************************************************************************************** 
+2016-04-29 14:54:28,086 INFO  [Log] X 
+2016-04-29 14:54:28,086 INFO  [Log] X 
+2016-04-29 14:54:28,086 INFO  [Log] X 
+2016-04-29 14:54:28,086 INFO  [Log] X 
+2016-04-29 16:01:11,479 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,480 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,480 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:01:11,480 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,480 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:11,483 INFO  [Log] Opening Browser 
+2016-04-29 16:01:26,842 INFO  [Log] Navigating to URL 
+2016-04-29 16:01:38,375 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:01:45,607 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:01:46,262 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:01:46,837 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:01:49,531 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:01:54,562 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-29 16:01:57,232 INFO  [Log] Closing the browser 
+2016-04-29 16:01:58,379 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:01:58,379 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,379 INFO  [Log] X 
+2016-04-29 16:01:58,548 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:01:58,549 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:01:58,549 INFO  [Log] Opening Browser 
+2016-04-29 16:02:13,853 INFO  [Log] Navigating to URL 
+2016-04-29 16:02:23,556 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:02:30,465 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:02:31,078 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:02:31,825 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:02:34,517 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:02:39,571 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-04-29 16:02:40,189 INFO  [Log] Closing the browser 
+2016-04-29 16:02:41,117 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:02:41,117 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,117 INFO  [Log] X 
+2016-04-29 16:02:41,117 INFO  [Log] X 
+2016-04-29 16:02:41,117 INFO  [Log] X 
+2016-04-29 16:02:41,118 INFO  [Log] X 
+2016-04-29 16:02:41,145 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:02:41,145 INFO  [Log] Opening Browser 
+2016-04-29 16:02:58,466 INFO  [Log] Navigating to URL 
+2016-04-29 16:03:25,558 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:03:31,112 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:03:31,744 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:03:32,244 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:03:34,961 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:03:40,017 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 16:03:46,610 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 16:03:47,020 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 16:03:49,710 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 16:03:56,840 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 16:03:57,596 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 16:03:58,436 INFO  [Log] Closing the browser 
+2016-04-29 16:03:59,438 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:03:59,438 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:03:59,438 INFO  [Log] X 
+2016-04-29 16:36:26,877 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:36:26,877 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:36:26,877 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:36:26,877 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:36:26,877 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:36:26,880 INFO  [Log] Opening Browser 
+2016-04-29 16:36:47,290 INFO  [Log] Navigating to URL 
+2016-04-29 16:36:57,913 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:37:04,754 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:37:05,400 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:37:06,046 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:37:08,758 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:37:13,791 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-29 16:37:16,568 INFO  [Log] Closing the browser 
+2016-04-29 16:37:18,188 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:37:18,188 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:37:18,188 INFO  [Log] X 
+2016-04-29 16:37:18,188 INFO  [Log] X 
+2016-04-29 16:37:18,188 INFO  [Log] X 
+2016-04-29 16:37:18,188 INFO  [Log] X 
+2016-04-29 16:37:18,348 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:37:18,348 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:37:18,348 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:37:18,348 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:37:18,348 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:37:18,349 INFO  [Log] Opening Browser 
+2016-04-29 16:37:33,236 INFO  [Log] Navigating to URL 
+2016-04-29 16:37:42,551 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:37:49,494 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:37:50,086 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:37:50,743 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:37:53,398 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:37:58,464 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-04-29 16:37:58,870 INFO  [Log] Closing the browser 
+2016-04-29 16:38:00,013 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:38:00,013 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:38:00,013 INFO  [Log] X 
+2016-04-29 16:38:00,013 INFO  [Log] X 
+2016-04-29 16:38:00,013 INFO  [Log] X 
+2016-04-29 16:38:00,013 INFO  [Log] X 
+2016-04-29 16:38:00,075 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 16:38:00,075 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:38:00,075 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:38:00,075 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:38:00,075 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:38:00,075 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:38:00,076 INFO  [Log] Opening Browser 
+2016-04-29 16:38:16,460 INFO  [Log] Navigating to URL 
+2016-04-29 16:38:25,802 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:38:31,656 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:38:32,230 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:38:32,885 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:38:35,521 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:38:40,546 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 16:38:46,886 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 16:38:47,008 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 16:38:49,282 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 16:38:55,508 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 16:38:56,075 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 16:38:56,575 INFO  [Log] Closing the browser 
+2016-04-29 16:38:57,554 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:38:57,554 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:38:57,554 INFO  [Log] X 
+2016-04-29 16:38:57,554 INFO  [Log] X 
+2016-04-29 16:38:57,554 INFO  [Log] X 
+2016-04-29 16:38:57,554 INFO  [Log] X 
+2016-04-29 16:45:29,771 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:45:29,771 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:45:29,772 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:45:29,772 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:45:29,772 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:45:29,774 INFO  [Log] Opening Browser 
+2016-04-29 16:45:45,982 INFO  [Log] Navigating to URL 
+2016-04-29 16:45:55,283 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:46:01,761 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:46:02,513 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:46:03,159 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:46:05,793 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:46:10,841 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-04-29 16:46:13,597 INFO  [Log] Closing the browser 
+2016-04-29 16:46:14,691 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:46:14,691 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:14,691 INFO  [Log] X 
+2016-04-29 16:46:14,691 INFO  [Log] X 
+2016-04-29 16:46:14,691 INFO  [Log] X 
+2016-04-29 16:46:14,691 INFO  [Log] X 
+2016-04-29 16:46:14,842 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:14,842 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:14,842 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:46:14,842 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:14,842 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:14,842 INFO  [Log] Opening Browser 
+2016-04-29 16:46:30,506 INFO  [Log] Navigating to URL 
+2016-04-29 16:46:39,510 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:46:46,399 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:46:47,047 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:46:47,654 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:46:50,380 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:46:55,438 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-04-29 16:46:55,993 INFO  [Log] Closing the browser 
+2016-04-29 16:46:56,988 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:46:56,989 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:56,989 INFO  [Log] X 
+2016-04-29 16:46:56,989 INFO  [Log] X 
+2016-04-29 16:46:56,989 INFO  [Log] X 
+2016-04-29 16:46:56,989 INFO  [Log] X 
+2016-04-29 16:46:57,017 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-04-29 16:46:57,017 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:57,017 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:57,017 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:46:57,018 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:57,018 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:46:57,018 INFO  [Log] Opening Browser 
+2016-04-29 16:47:12,516 INFO  [Log] Navigating to URL 
+2016-04-29 16:47:21,220 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-04-29 16:47:27,696 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-04-29 16:47:28,304 INFO  [Log] Entering the text in: txtbx_Password 
+2016-04-29 16:47:28,919 INFO  [Log] Clicking on Webelement btn_Login 
+2016-04-29 16:47:31,785 INFO  [Log] Wait for 5 seconds 
+2016-04-29 16:47:36,838 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-04-29 16:47:42,644 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-04-29 16:47:43,054 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-04-29 16:47:45,775 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-04-29 16:47:52,597 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-04-29 16:47:53,435 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-04-29 16:47:54,314 INFO  [Log] Closing the browser 
+2016-04-29 16:47:55,258 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-04-29 16:47:55,258 INFO  [Log] **************************************************************************************** 
+2016-04-29 16:47:55,258 INFO  [Log] X 
+2016-04-29 16:47:55,258 INFO  [Log] X 
+2016-04-29 16:47:55,258 INFO  [Log] X 
+2016-04-29 16:47:55,258 INFO  [Log] X 
