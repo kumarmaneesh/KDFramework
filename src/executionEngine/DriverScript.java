@@ -125,7 +125,7 @@ public class DriverScript {
 						execute_Actions();
 						//This is the result code, this code will execute after each test step
 						//The execution flow will go in to this only if the value of bResult is 'false'
-						if(bResult==false || bResultVerify==false){
+						if(bResult==false){// || bResultVerify==false){
 							//If 'false' then store the test case result as Fail
 							ExcelUtils.setCellData(Constants.KEYWORD_FAIL,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 							//End the test case in the logs
@@ -139,7 +139,7 @@ public class DriverScript {
 					}
 
 					//This will only execute after the last step of the test case, if value is not 'false' at any step	
-					if(bResult==true && bResultVerify==true){
+					if(bResult==true){// && bResultVerify==true){
 						//Storing the result as Pass in the excel sheet
 						ExcelUtils.setCellData(Constants.KEYWORD_PASS,iTestcase,Constants.Col_Result,Constants.Sheet_TestCases);
 						Log.endTestCase(sTestCaseID);

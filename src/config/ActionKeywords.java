@@ -34,7 +34,7 @@ public class ActionKeywords {
 
 	public static void openBrowser(String object,String value) throws InterruptedException{	
 		try{
-			//DriverScript.bResult = true;
+			DriverScript.bResult = true;
 			if(value.equalsIgnoreCase("chrome")){
 				System.out.println("launching Chrome browser");
 				Log.info("Opening Browser");
@@ -49,12 +49,14 @@ public class ActionKeywords {
 				//Below code is to bypass zscalar authentication
 				//*****************************************************************************************************
 				Thread.sleep(3000);
+				if(driver.getTitle().contains("Zscaler")){
 				driver.findElement(By.name("lognsfc")).sendKeys("surbhi.kukreja.ttc@sgx.com");
 				driver.findElement(By.name("lsubmit")).click();
 
 				driver.findElement(By.name("passsfc")).sendKeys("Password123");
 				driver.findElement(By.name("bsubmit")).click();
 				Thread.sleep(2000);
+				}
 			}
 			else if(value.equalsIgnoreCase("firefox")){
 				System.out.println("launching firefox browser");
@@ -75,7 +77,7 @@ public class ActionKeywords {
 
 	public static void navigate(String object,String value){
 		try{
-			//DriverScript.bResult = true;
+			DriverScript.bResult = true;
 			Log.info("Navigating to URL");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get(Constants.URL);
@@ -87,7 +89,7 @@ public class ActionKeywords {
 
 	public static void click(String object,String value){
 		try{
-			//DriverScript.bResult = true;
+			DriverScript.bResult = true;
 			Log.info("Clicking on Webelement "+ object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
 			Thread.sleep(2000);
@@ -101,7 +103,7 @@ public class ActionKeywords {
 	}
 
 	public static void input(String object,String value){
-		//DriverScript.bResult = true;
+		DriverScript.bResult = true;
 		Log.info("Entering the text in: "+ object);
 		driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(value); 
 	}
@@ -115,7 +117,7 @@ public class ActionKeywords {
 			}*/
 
 	public static void waitFor(String object,String value) throws Exception{
-		//DriverScript.bResult = true;
+		DriverScript.bResult = true;
 		Log.info("Wait for 5 seconds");
 		Thread.sleep(5000);
 	}
@@ -123,7 +125,7 @@ public class ActionKeywords {
 	public static void verifyText(String object,String value) throws IOException{
 		//WebDriverWait wait = new WebDriverWait(driver, 15); 
 		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
-		//DriverScript.bResult = true;
+		DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(value)){
@@ -139,6 +141,7 @@ public class ActionKeywords {
 			File destination = new File(dest);
 			FileUtils.copyFile(source, destination);
 			System.out.println("Snapshot taken!");	
+			DriverScript.bResult = false;
 			DriverScript.bResultVerify = false;
 		}
 	}
@@ -146,7 +149,7 @@ public class ActionKeywords {
 	public static void verifyValue(String object,String value) throws IOException{
 		//WebDriverWait wait = new WebDriverWait(driver, 15); 
 		//wait.until(ExpectedConditions.elementToBeSelected(driver.findElement(By.xpath(OR.getProperty(object)))));
-		//DriverScript.bResult = true;
+		DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objValue = driver.findElement(By.xpath(OR.getProperty(object))).getAttribute("value");
 
@@ -165,16 +168,17 @@ public class ActionKeywords {
 			File destination = new File(dest);
 			FileUtils.copyFile(source, destination);
 			System.out.println("Snapshot taken!");	
+			DriverScript.bResult = false;
 			DriverScript.bResultVerify = false;
 		}
 	}
 
 	public static void verifyStoredText(String object,String value) throws IOException{
-		//DriverScript.bResult = true;
+		DriverScript.bResult = true;
 		Log.info("Verifying Text for item: " + object);
 		String objText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		if(objText.contains(storedText)){
-			Log.info("Stored Text for object "+ object +"is: " + storedText);
+			Log.info("Stored Text for object "+ object +" is: " + storedText);
 			System.out.println("Verification Successful for stored text");
 			System.out.println("Expected Value: " + storedText);
 			System.out.println("Actual Value: " + objText);
@@ -189,12 +193,12 @@ public class ActionKeywords {
 			File destination = new File(dest);
 			FileUtils.copyFile(source, destination);
 			System.out.println("Snapshot taken!");			
-			DriverScript.bResultVerify = false;
+			DriverScript.bResult = false;
 		}
 	}
 
 	public static String storeValue(String object,String value){
-		//DriverScript.bResult = true;
+		DriverScript.bResult = true;
 		Log.info("Store Text in a variable for: " + object);
 		storedText = driver.findElement(By.xpath(OR.getProperty(object))).getText();
 		return storedText;
@@ -202,7 +206,7 @@ public class ActionKeywords {
 
 	public static void mouseHover(String object,String value) throws InterruptedException{
 		try{
-			//DriverScript.bResult = true;
+			DriverScript.bResult = true;
 			Log.info("MouseHover element: "+ object + " and clicking on: " + value);
 			Actions action = new Actions(driver);
 			WebElement we = driver.findElement(By.xpath(OR.getProperty(object)));
@@ -218,7 +222,7 @@ public class ActionKeywords {
 
 	public static void closeBrowser(String object,String value){
 		try{
-			//DriverScript.bResult = true;
+			DriverScript.bResult = true;
 			Log.info("Closing the browser");
 			driver.quit();
 		}catch(Exception e){
