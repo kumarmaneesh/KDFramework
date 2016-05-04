@@ -46,7 +46,7 @@ public class ActionKeywords {
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				driver.get("http://www.store.demoqa.com");
 
-				//Below code is to bypass zscalar authentication
+				//Below code is to bypass Zscaler authentication
 				//*****************************************************************************************************
 				Thread.sleep(3000);
 				if(driver.getTitle().contains("Zscaler")){
