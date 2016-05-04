@@ -855,3 +855,613 @@
 2016-05-03 16:09:54,814 INFO  [Log] X 
 2016-05-03 16:09:54,814 INFO  [Log] X 
 2016-05-03 16:09:54,814 INFO  [Log] X 
+2016-05-04 09:53:22,223 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:53:22,224 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:53:22,224 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 09:53:22,224 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:53:22,224 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:53:22,227 INFO  [Log] Opening Browser 
+2016-05-04 09:53:22,260 INFO  [Log] Not able to open Browser --- The driver executable does not exist: D:\Project\chromedriver.exe 
+2016-05-04 09:53:22,399 INFO  [Log] Navigating to URL 
+2016-05-04 09:53:22,399 INFO  [Log] Not able to navigate --- null 
+2016-05-04 09:53:22,470 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 09:53:22,472 ERROR [Log] Not able to click --- null 
+2016-05-04 09:53:22,546 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 09:59:08,577 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:59:08,577 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:59:08,577 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 09:59:08,577 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:59:08,577 INFO  [Log] **************************************************************************************** 
+2016-05-04 09:59:08,580 INFO  [Log] Opening Browser 
+2016-05-04 09:59:08,614 INFO  [Log] Not able to open Browser --- The driver executable does not exist: D:\Project\chromedriver.exe 
+2016-05-04 09:59:08,760 INFO  [Log] Navigating to URL 
+2016-05-04 09:59:08,760 INFO  [Log] Not able to navigate --- null 
+2016-05-04 09:59:08,831 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 09:59:08,833 ERROR [Log] Not able to click --- null 
+2016-05-04 09:59:08,899 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:04:32,529 ERROR [Log] Class ExcelUtils | Method setExcelFile | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\KDFramework\src\dataEngine\DataEngine.xlsx (The system cannot find the path specified) 
+2016-05-04 10:05:13,738 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:13,738 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:13,738 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:05:13,738 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:13,738 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:13,738 INFO  [Log] Opening Browser 
+2016-05-04 10:05:31,763 INFO  [Log] Navigating to URL 
+2016-05-04 10:05:39,975 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 10:05:44,576 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:05:45,203 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 10:05:45,811 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 10:05:48,472 INFO  [Log] Wait for 5 seconds 
+2016-05-04 10:05:53,563 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-05-04 10:05:56,240 INFO  [Log] Closing the browser 
+2016-05-04 10:05:57,422 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:05:57,422 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:57,422 INFO  [Log] X 
+2016-05-04 10:05:57,422 INFO  [Log] X 
+2016-05-04 10:05:57,422 INFO  [Log] X 
+2016-05-04 10:05:57,422 INFO  [Log] X 
+2016-05-04 10:05:57,578 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:57,578 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:57,578 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:05:57,578 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:57,578 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:05:57,578 INFO  [Log] Opening Browser 
+2016-05-04 10:06:12,964 INFO  [Log] Navigating to URL 
+2016-05-04 10:06:19,747 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 10:06:26,126 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:06:26,769 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 10:06:27,345 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 10:06:29,960 INFO  [Log] Wait for 5 seconds 
+2016-05-04 10:06:35,025 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-05-04 10:06:35,287 INFO  [Log] Closing the browser 
+2016-05-04 10:06:36,254 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:06:36,254 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:06:36,254 INFO  [Log] X 
+2016-05-04 10:06:36,254 INFO  [Log] X 
+2016-05-04 10:06:36,254 INFO  [Log] X 
+2016-05-04 10:06:36,254 INFO  [Log] X 
+2016-05-04 10:06:36,270 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 10:06:36,270 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:06:36,270 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:06:36,270 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:06:36,270 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:06:36,270 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:06:36,270 INFO  [Log] Opening Browser 
+2016-05-04 10:06:51,298 INFO  [Log] Navigating to URL 
+2016-05-04 10:06:58,119 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 10:07:03,129 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:07:03,682 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 10:07:04,294 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 10:07:06,936 INFO  [Log] Wait for 5 seconds 
+2016-05-04 10:07:11,984 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 10:07:16,693 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 10:07:17,098 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 10:07:19,844 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 10:07:27,529 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 10:07:28,269 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 10:07:29,016 INFO  [Log] Closing the browser 
+2016-05-04 10:07:29,972 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:07:29,972 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:07:29,972 INFO  [Log] X 
+2016-05-04 10:07:29,972 INFO  [Log] X 
+2016-05-04 10:07:29,972 INFO  [Log] X 
+2016-05-04 10:07:29,972 INFO  [Log] X 
+2016-05-04 10:24:27,617 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:24:27,617 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:24:27,617 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:24:27,617 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:24:27,617 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:24:27,617 INFO  [Log] Opening Browser 
+2016-05-04 10:24:43,508 INFO  [Log] Navigating to URL 
+2016-05-04 10:24:50,527 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 10:24:55,847 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:24:56,395 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 10:24:57,238 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 10:24:59,875 INFO  [Log] Wait for 5 seconds 
+2016-05-04 10:25:04,959 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-05-04 10:25:07,612 INFO  [Log] Closing the browser 
+2016-05-04 10:25:09,475 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:25:09,475 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:09,475 INFO  [Log] X 
+2016-05-04 10:25:09,475 INFO  [Log] X 
+2016-05-04 10:25:09,475 INFO  [Log] X 
+2016-05-04 10:25:09,475 INFO  [Log] X 
+2016-05-04 10:25:09,631 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:09,631 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:09,631 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:25:09,631 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:09,631 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:09,631 INFO  [Log] Opening Browser 
+2016-05-04 10:25:27,906 INFO  [Log] Navigating to URL 
+2016-05-04 10:25:34,507 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 10:25:39,330 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:25:39,893 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 10:25:40,648 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 10:25:43,303 INFO  [Log] Wait for 5 seconds 
+2016-05-04 10:25:48,327 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-05-04 10:25:48,686 INFO  [Log] Closing the browser 
+2016-05-04 10:25:49,622 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:25:49,622 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:49,622 INFO  [Log] X 
+2016-05-04 10:25:49,622 INFO  [Log] X 
+2016-05-04 10:25:49,622 INFO  [Log] X 
+2016-05-04 10:25:49,622 INFO  [Log] X 
+2016-05-04 10:25:49,654 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 10:25:49,654 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:49,654 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:49,654 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:25:49,654 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:49,654 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:25:49,654 INFO  [Log] Opening Browser 
+2016-05-04 10:26:05,126 INFO  [Log] Navigating to URL 
+2016-05-04 10:26:11,436 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 10:26:16,168 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 10:26:17,027 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 10:26:17,738 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 10:26:20,451 INFO  [Log] Wait for 5 seconds 
+2016-05-04 10:26:25,530 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 10:26:30,215 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 10:26:30,795 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 10:26:33,581 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 10:26:38,510 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 10:26:39,231 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 10:26:40,791 INFO  [Log] Closing the browser 
+2016-05-04 10:26:41,790 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 10:26:41,790 INFO  [Log] **************************************************************************************** 
+2016-05-04 10:26:41,790 INFO  [Log] X 
+2016-05-04 10:26:41,790 INFO  [Log] X 
+2016-05-04 10:26:41,790 INFO  [Log] X 
+2016-05-04 10:26:41,790 INFO  [Log] X 
+2016-05-04 12:52:25,664 ERROR [Log] Class ExcelUtils | Method setExcelFile | Exception desc : C:\Users\ttc.mk\workspace\KDFramework\KDFramework\src\dataEngine\DataEngine.xlsx (The system cannot find the path specified) 
+2016-05-04 12:52:47,057 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:52:47,057 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:52:47,057 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:52:47,057 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:52:47,057 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:52:47,060 INFO  [Log] Opening Browser 
+2016-05-04 12:53:04,197 INFO  [Log] Navigating to URL 
+2016-05-04 12:53:11,933 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 12:53:16,349 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 12:53:17,003 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 12:53:17,398 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 12:53:19,642 INFO  [Log] Wait for 5 seconds 
+2016-05-04 12:53:24,701 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-05-04 12:53:26,973 INFO  [Log] Closing the browser 
+2016-05-04 12:53:28,172 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:53:28,172 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:53:28,172 INFO  [Log] X 
+2016-05-04 12:53:28,172 INFO  [Log] X 
+2016-05-04 12:53:28,172 INFO  [Log] X 
+2016-05-04 12:53:28,172 INFO  [Log] X 
+2016-05-04 12:53:28,335 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:53:28,335 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:53:28,335 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:53:28,335 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:53:28,335 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:53:28,335 INFO  [Log] Opening Browser 
+2016-05-04 12:53:43,239 INFO  [Log] Navigating to URL 
+2016-05-04 12:53:50,469 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 12:53:55,082 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 12:53:55,662 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 12:53:56,314 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 12:53:59,024 INFO  [Log] Wait for 5 seconds 
+2016-05-04 12:54:04,088 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-05-04 12:54:04,537 INFO  [Log] Closing the browser 
+2016-05-04 12:54:05,524 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:54:05,524 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:54:05,524 INFO  [Log] X 
+2016-05-04 12:54:05,524 INFO  [Log] X 
+2016-05-04 12:54:05,524 INFO  [Log] X 
+2016-05-04 12:54:05,524 INFO  [Log] X 
+2016-05-04 12:54:05,554 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 12:54:05,554 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:54:05,554 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:54:05,554 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:54:05,554 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:54:05,554 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:54:05,554 INFO  [Log] Opening Browser 
+2016-05-04 12:54:20,381 INFO  [Log] Navigating to URL 
+2016-05-04 12:54:27,728 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 12:54:33,317 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 12:54:33,949 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 12:54:34,558 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 12:54:37,152 INFO  [Log] Wait for 5 seconds 
+2016-05-04 12:54:42,198 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 12:54:47,852 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 12:54:47,955 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 12:54:50,226 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 12:54:54,385 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 12:54:54,898 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 12:54:55,327 INFO  [Log] Closing the browser 
+2016-05-04 12:54:56,350 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:54:56,350 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:54:56,350 INFO  [Log] X 
+2016-05-04 12:54:56,350 INFO  [Log] X 
+2016-05-04 12:54:56,350 INFO  [Log] X 
+2016-05-04 12:54:56,350 INFO  [Log] X 
+2016-05-04 12:57:15,058 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:15,058 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:15,058 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:57:15,058 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:15,058 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:15,061 INFO  [Log] Opening Browser 
+2016-05-04 12:57:30,889 INFO  [Log] Navigating to URL 
+2016-05-04 12:57:37,022 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 12:57:41,650 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 12:57:42,278 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 12:57:42,932 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 12:57:45,538 INFO  [Log] Wait for 5 seconds 
+2016-05-04 12:57:50,602 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-05-04 12:57:53,280 INFO  [Log] Closing the browser 
+2016-05-04 12:57:54,407 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:57:54,407 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:54,407 INFO  [Log] X 
+2016-05-04 12:57:54,407 INFO  [Log] X 
+2016-05-04 12:57:54,407 INFO  [Log] X 
+2016-05-04 12:57:54,407 INFO  [Log] X 
+2016-05-04 12:57:54,557 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:54,558 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:54,558 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:57:54,558 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:54,558 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:57:54,558 INFO  [Log] Opening Browser 
+2016-05-04 12:58:09,234 INFO  [Log] Navigating to URL 
+2016-05-04 12:58:15,832 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 12:58:20,784 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 12:58:21,473 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 12:58:22,243 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 12:58:24,945 INFO  [Log] Wait for 5 seconds 
+2016-05-04 12:58:30,009 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-05-04 12:58:30,413 INFO  [Log] Closing the browser 
+2016-05-04 12:58:31,377 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:58:31,377 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:58:31,377 INFO  [Log] X 
+2016-05-04 12:58:31,377 INFO  [Log] X 
+2016-05-04 12:58:31,377 INFO  [Log] X 
+2016-05-04 12:58:31,377 INFO  [Log] X 
+2016-05-04 12:58:31,404 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 12:58:31,404 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:58:31,404 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:58:31,404 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:58:31,404 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:58:31,404 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:58:31,405 INFO  [Log] Opening Browser 
+2016-05-04 12:58:46,344 INFO  [Log] Navigating to URL 
+2016-05-04 12:58:52,560 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 12:58:57,391 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 12:58:58,058 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 12:58:58,609 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 12:59:01,296 INFO  [Log] Wait for 5 seconds 
+2016-05-04 12:59:06,317 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 12:59:11,011 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 12:59:11,345 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 12:59:14,072 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 12:59:19,258 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 12:59:20,013 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 12:59:20,792 INFO  [Log] Closing the browser 
+2016-05-04 12:59:21,817 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 12:59:21,817 INFO  [Log] **************************************************************************************** 
+2016-05-04 12:59:21,817 INFO  [Log] X 
+2016-05-04 12:59:21,817 INFO  [Log] X 
+2016-05-04 12:59:21,817 INFO  [Log] X 
+2016-05-04 12:59:21,817 INFO  [Log] X 
+2016-05-04 13:04:22,786 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 13:04:22,786 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:04:22,786 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:04:22,786 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:04:22,786 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:04:22,786 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:04:22,789 INFO  [Log] Opening Browser 
+2016-05-04 13:04:38,236 INFO  [Log] Navigating to URL 
+2016-05-04 13:04:44,779 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:04:49,456 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:04:50,124 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 13:04:50,865 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 13:04:53,567 INFO  [Log] Wait for 5 seconds 
+2016-05-04 13:04:58,632 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 13:05:03,661 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 13:05:04,107 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 13:05:06,799 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 13:05:12,039 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 13:05:12,797 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 13:05:13,663 INFO  [Log] Closing the browser 
+2016-05-04 13:05:14,816 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:05:14,816 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:05:14,816 INFO  [Log] X 
+2016-05-04 13:05:14,816 INFO  [Log] X 
+2016-05-04 13:05:14,816 INFO  [Log] X 
+2016-05-04 13:05:14,816 INFO  [Log] X 
+2016-05-04 13:07:09,889 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 13:07:09,890 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:07:09,890 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:07:09,890 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:07:09,890 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:07:09,890 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:07:09,893 INFO  [Log] Opening Browser 
+2016-05-04 13:07:27,338 INFO  [Log] Navigating to URL 
+2016-05-04 13:07:33,504 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:07:38,146 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:07:38,321 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 13:07:38,507 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 13:07:40,734 INFO  [Log] Wait for 5 seconds 
+2016-05-04 13:07:45,794 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 13:07:50,114 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 13:07:50,224 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 13:07:52,478 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 13:07:57,274 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 13:07:57,839 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 13:07:58,342 INFO  [Log] Closing the browser 
+2016-05-04 13:07:59,406 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:07:59,406 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:07:59,407 INFO  [Log] X 
+2016-05-04 13:07:59,407 INFO  [Log] X 
+2016-05-04 13:07:59,407 INFO  [Log] X 
+2016-05-04 13:07:59,407 INFO  [Log] X 
+2016-05-04 13:45:20,079 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:20,079 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:20,079 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:45:20,079 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:20,079 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:20,082 INFO  [Log] Opening Browser 
+2016-05-04 13:45:27,404 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:27,407 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:27,407 INFO  [Log] Navigating to URL 
+2016-05-04 13:45:28,711 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:28,712 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:28,712 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:45:30,324 ERROR [Log] Not able to click --- null 
+2016-05-04 13:45:30,325 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:30,327 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:30,327 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:45:48,498 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:48,499 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:48,499 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:45:48,499 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:48,499 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:45:48,502 INFO  [Log] Opening Browser 
+2016-05-04 13:45:55,770 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:55,772 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:55,772 INFO  [Log] Navigating to URL 
+2016-05-04 13:45:57,063 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:57,065 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:45:57,065 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:46:02,554 ERROR [Log] Not able to click --- null 
+2016-05-04 13:46:02,555 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:02,557 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:02,557 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:46:19,515 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:19,516 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:19,516 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:46:19,516 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:19,516 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:19,519 INFO  [Log] Opening Browser 
+2016-05-04 13:46:34,522 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:34,524 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:34,524 INFO  [Log] Navigating to URL 
+2016-05-04 13:46:42,613 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:42,614 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:42,614 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:46:46,774 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:46,777 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:46,777 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:46:46,992 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:46,999 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:47,000 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 13:46:47,141 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:47,142 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:47,142 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 13:46:49,337 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:49,338 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:49,339 INFO  [Log] Wait for 5 seconds 
+2016-05-04 13:46:54,341 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:54,345 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:54,345 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-05-04 13:46:56,648 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:56,649 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:56,650 INFO  [Log] Closing the browser 
+2016-05-04 13:46:57,659 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:57,660 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:57,661 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:46:57,661 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:46:57,661 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:57,661 INFO  [Log] X 
+2016-05-04 13:46:57,661 INFO  [Log] X 
+2016-05-04 13:46:57,661 INFO  [Log] X 
+2016-05-04 13:46:57,661 INFO  [Log] X 
+2016-05-04 13:46:57,818 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:57,818 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:57,818 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:46:57,818 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:57,818 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:46:57,818 INFO  [Log] Opening Browser 
+2016-05-04 13:47:13,589 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:13,592 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:13,593 INFO  [Log] Navigating to URL 
+2016-05-04 13:47:19,671 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:19,673 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:19,673 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:47:24,208 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:24,210 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:24,210 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:47:24,561 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:24,562 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:24,562 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 13:47:24,742 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:24,742 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:24,743 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 13:47:26,937 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:26,939 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:26,940 INFO  [Log] Wait for 5 seconds 
+2016-05-04 13:47:31,940 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:31,941 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:31,942 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-05-04 13:47:32,023 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:32,024 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:32,024 INFO  [Log] Closing the browser 
+2016-05-04 13:47:32,959 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:32,960 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:32,960 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:32,960 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:47:32,960 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:47:32,960 INFO  [Log] X 
+2016-05-04 13:47:32,960 INFO  [Log] X 
+2016-05-04 13:47:32,960 INFO  [Log] X 
+2016-05-04 13:47:32,960 INFO  [Log] X 
+2016-05-04 13:47:32,987 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 13:47:32,987 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:47:32,987 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:47:32,987 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:47:32,987 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:47:32,987 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:47:32,987 INFO  [Log] Opening Browser 
+2016-05-04 13:47:48,558 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:48,560 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:48,561 INFO  [Log] Navigating to URL 
+2016-05-04 13:47:55,360 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:55,362 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:55,363 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 13:47:59,866 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:59,867 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:47:59,867 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 13:48:00,393 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:00,394 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:00,394 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 13:48:00,945 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:00,945 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:00,946 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 13:48:03,776 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:03,777 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:03,777 INFO  [Log] Wait for 5 seconds 
+2016-05-04 13:48:08,781 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:08,784 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:08,784 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 13:48:14,162 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:14,165 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:14,166 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 13:48:14,641 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:14,642 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:14,642 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 13:48:17,257 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:17,260 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:17,260 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 13:48:22,793 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:22,796 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:22,797 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 13:48:23,576 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:23,577 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:23,577 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 13:48:24,714 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:24,715 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:24,715 INFO  [Log] Closing the browser 
+2016-05-04 13:48:25,656 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:25,659 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:25,661 ERROR [Log] Class ExcelUtils | Method setCellData | Exception desc : D:\Project\KDFramework\src\dataEngine\DataEngine.xlsx (The process cannot access the file because it is being used by another process) 
+2016-05-04 13:48:25,661 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 13:48:25,661 INFO  [Log] **************************************************************************************** 
+2016-05-04 13:48:25,661 INFO  [Log] X 
+2016-05-04 13:48:25,661 INFO  [Log] X 
+2016-05-04 13:48:25,661 INFO  [Log] X 
+2016-05-04 13:48:25,662 INFO  [Log] X 
+2016-05-04 15:34:31,296 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:34:31,296 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:34:31,296 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:34:31,296 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:34:31,296 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:34:31,299 INFO  [Log] Opening Browser 
+2016-05-04 15:34:46,849 INFO  [Log] Navigating to URL 
+2016-05-04 15:34:54,064 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 15:34:58,605 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 15:34:59,272 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 15:34:59,857 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 15:35:02,510 INFO  [Log] Wait for 5 seconds 
+2016-05-04 15:35:07,578 INFO  [Log] Clicking on Webelement btn_Logout 
+2016-05-04 15:35:10,349 INFO  [Log] Closing the browser 
+2016-05-04 15:35:11,493 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:35:11,494 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:11,494 INFO  [Log] X 
+2016-05-04 15:35:11,494 INFO  [Log] X 
+2016-05-04 15:35:11,494 INFO  [Log] X 
+2016-05-04 15:35:11,494 INFO  [Log] X 
+2016-05-04 15:35:11,654 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:11,655 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:11,655 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC002      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:35:11,655 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:11,655 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:11,655 INFO  [Log] Opening Browser 
+2016-05-04 15:35:27,227 INFO  [Log] Navigating to URL 
+2016-05-04 15:35:34,375 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 15:35:39,284 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 15:35:39,897 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 15:35:40,958 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 15:35:43,600 INFO  [Log] Wait for 5 seconds 
+2016-05-04 15:35:48,658 INFO  [Log] Verifying Text for item: lbl_Error 
+2016-05-04 15:35:49,571 INFO  [Log] Closing the browser 
+2016-05-04 15:35:50,607 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:35:50,607 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:50,608 INFO  [Log] X 
+2016-05-04 15:35:50,608 INFO  [Log] X 
+2016-05-04 15:35:50,608 INFO  [Log] X 
+2016-05-04 15:35:50,608 INFO  [Log] X 
+2016-05-04 15:35:50,637 ERROR [Log] Class ExcelUtils | Method getCellData | Exception desc : null 
+2016-05-04 15:35:50,637 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:50,637 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:50,637 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC003      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:35:50,637 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:50,637 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:35:50,637 INFO  [Log] Opening Browser 
+2016-05-04 15:36:06,307 INFO  [Log] Navigating to URL 
+2016-05-04 15:36:15,158 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 15:36:19,854 INFO  [Log] Entering the text in: txtbx_UserName 
+2016-05-04 15:36:20,049 INFO  [Log] Entering the text in: txtbx_Password 
+2016-05-04 15:36:20,218 INFO  [Log] Clicking on Webelement btn_Login 
+2016-05-04 15:36:22,461 INFO  [Log] Wait for 5 seconds 
+2016-05-04 15:36:27,518 INFO  [Log] MouseHover element: lnk_ProductCategory and clicking on: lnk_iPhones 
+2016-05-04 15:36:31,753 INFO  [Log] Store Text in a variable for: lbl_CurrentPrice 
+2016-05-04 15:36:31,865 INFO  [Log] Clicking on Webelement btn_AddToCart 
+2016-05-04 15:36:34,147 INFO  [Log] Clicking on Webelement btn_GoToCheckOut 
+2016-05-04 15:36:39,478 INFO  [Log] Verifying Text for item: txtbx_Qty 
+2016-05-04 15:36:40,005 INFO  [Log] Verifying Text for item: lbl_SubTotal 
+2016-05-04 15:36:40,488 INFO  [Log] Closing the browser 
+2016-05-04 15:36:41,447 INFO  [Log] xxxxxxxxxxxxxxxxxxxxx             -E---N---D-             xxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:36:41,447 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:36:41,447 INFO  [Log] X 
+2016-05-04 15:36:41,447 INFO  [Log] X 
+2016-05-04 15:36:41,447 INFO  [Log] X 
+2016-05-04 15:36:41,447 INFO  [Log] X 
+2016-05-04 15:37:35,592 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:37:35,592 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:37:35,592 INFO  [Log] xxxxxxxxxxxxxxxxxxxxxxx           TC001      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+2016-05-04 15:37:35,592 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:37:35,592 INFO  [Log] **************************************************************************************** 
+2016-05-04 15:37:35,593 INFO  [Log] Opening Browser 
+2016-05-04 15:37:44,519 INFO  [Log] Not able to open Browser --- chrome not reachable
+  (Session info: chrome=50.0.2661.94)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir9844_2023}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7eb03d7d2cdf3004b71aa9ba7a87e7c7 
+2016-05-04 15:37:44,591 INFO  [Log] Navigating to URL 
+2016-05-04 15:37:46,668 INFO  [Log] Not able to navigate --- chrome not reachable
+  (Session info: chrome=50.0.2661.94)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir9844_2023}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7eb03d7d2cdf3004b71aa9ba7a87e7c7 
+2016-05-04 15:37:46,729 INFO  [Log] Clicking on Webelement btn_MyAccount 
+2016-05-04 15:37:48,773 ERROR [Log] Not able to click --- chrome not reachable
+  (Session info: chrome=50.0.2661.94)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DSK01172', ip: '10.232.68.157', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ttc.mk\AppData\Local\Temp\scoped_dir9844_2023}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7eb03d7d2cdf3004b71aa9ba7a87e7c7
+*** Element info: {Using=xpath, value=.//*[@id='account']/a} 
+2016-05-04 15:37:48,846 INFO  [Log] Entering the text in: txtbx_UserName 
